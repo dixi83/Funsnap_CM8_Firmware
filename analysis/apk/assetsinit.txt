@@ -246,4 +246,4 @@ Lcom/cap/camera/HomeActivity$c;->run()V
 042a move-result-object         v0
 042c const-string               v1, "ble_control.bin"
 0430 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
-0436 return-void                
+0436 return-void

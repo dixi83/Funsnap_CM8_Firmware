@@ -181,7 +181,7 @@ LG0/a$r;->run()V
 0302 goto                       +6h
 0304 move-exception             v0
 0306 invoke-virtual             v0, Ljava/lang/Throwable;->printStackTrace()V
-030c return-void                
+030c return-void
 030e const-wide/16              v0, 300
 0312 invoke-static              v0, v1, Ljava/lang/Thread;->sleep(J)V
 0318 goto                       +5h
@@ -293,4 +293,4 @@ LG0/a$r;->run()V
 04b2 iget-object                v0, v5, LG0/a$r;->s LG0/a;
 04b6 const/4                    v1, 0
 04b8 invoke-static              v0, v1, LG0/a;->w(LG0/a; LG0/a$r;)V
-04be return-void                
+04be return-void

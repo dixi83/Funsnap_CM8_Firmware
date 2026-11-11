@@ -479,7 +479,7 @@ LS0/b$a;-><clinit>()V
 00a0 invoke-static              LS0/b$a;->a()[LS0/b$a;
 00a6 move-result-object         v0
 00a8 sput-object                v0, LS0/b$a;->n [LS0/b$a;
-00ac return-void                
+00ac return-void
 Lcap/phone/set/custom/GimbalOtherView;->getUpdateFirmNum()B
     01ac key_gimbal_version_c09_1
 0192 return                     v2
