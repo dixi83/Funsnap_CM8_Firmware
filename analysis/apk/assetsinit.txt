@@ -1,0 +1,249 @@
+Lcom/cap/camera/HomeActivity$c;->run()V
+0000 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0004 const-string               v1, "key_gimbal_version_1"
+0008 const/4                    v2, 0
+000a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0010 move-result                v0
+0012 const-string               v3, "firmware/"
+0016 const/16                   v4, 11
+001a if-ge                      v0, v4, +015h
+001e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0022 const-string               v5, "C2_F01.bin"
+0026 invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+002c iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0030 const-string               v5, "C2_F01_st.bin"
+0034 invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+003a iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+003e invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0044 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0048 const-string               v1, "key_gimbal_version_4"
+004c invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0052 move-result                v0
+0054 const/16                   v4, 8
+0058 if-ge                      v0, v4, +015h
+005c iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0060 const-string               v5, "C2_F04.bin"
+0064 invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+006a iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+006e const-string               v5, "C2_F04_cs.bin"
+0072 invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0078 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+007c invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0082 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0086 const-string               v1, "key_gimbal_version_pi_1"
+008a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0090 move-result                v0
+0092 const/16                   v5, 13
+0096 if-ge                      v0, v5, +01ch
+009a iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+009e const-string               v6, "C3_F01.bin"
+00a2 invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00a8 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00ac const-string               v6, "C3_F01_st.bin"
+00b0 invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00b6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00ba const-string               v6, "C3_F01_st_302.bin"
+00be invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00c4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00c8 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00ce iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00d2 const-string               v1, "key_gimbal_version_pi_4"
+00d6 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+00dc move-result                v0
+00de const/16                   v6, 10
+00e2 if-ge                      v0, v6, +00eh
+00e6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00ea const-string               v7, "C3_F04.bin"
+00ee invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00f4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+00f8 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00fe iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0102 const-string               v1, "key_gimbal_version_c05_1"
+0106 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+010c move-result                v0
+010e const/16                   v6, 15
+0112 if-ge                      v0, v6, +00eh
+0116 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+011a const-string               v7, "C5_F01.bin"
+011e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0124 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0128 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+012e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0132 const-string               v1, "key_gimbal_version_c05_1_puran"
+0136 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+013c move-result                v0
+013e const/16                   v6, 18
+0142 if-ge                      v0, v6, +00eh
+0146 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+014a const-string               v7, "C5_F01_puran.bin"
+014e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0154 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0158 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+015e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0162 const-string               v1, "key_gimbal_version_c05_1_py"
+0166 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+016c move-result                v0
+016e const/16                   v6, 30
+0172 if-ge                      v0, v6, +00eh
+0176 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+017a const-string               v7, "C5_F01_py.bin"
+017e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0184 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0188 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+018e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0192 const-string               v1, "key_gimbal_version_c05_4"
+0196 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+019c move-result                v0
+019e if-ge                      v0, v5, +00eh
+01a2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01a6 const-string               v6, "C5_F04.bin"
+01aa invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01b0 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01b4 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01ba iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c05_4_4g"
+01c2 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c8 move-result                v0
+01ca const/16                   v5, 20
+01ce if-ge                      v0, v5, +00eh
+01d2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01d6 const-string               v6, "C5_F04_4g.bin"
+01da invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01e0 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01e4 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01ea iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01ee const-string               v1, "key_gimbal_version_c04_1"
+01f2 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01f8 move-result                v0
+01fa if-ge                      v0, v4, +010h
+01fe iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0202 const-string               v1, "C4_F01.bin"
+0206 invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+020c iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0210 const-string               v1, "key_gimbal_version_c04_1"
+0214 invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+021a iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+021e const-string               v1, "key_gimbal_version_c04_4"
+0222 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0228 move-result                v0
+022a const/4                    v1, 7
+022c if-ge                      v0, v1, +011h
+0230 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0234 const-string               v1, "C4_F04.bin"
+0238 invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+023e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0242 const-string               v1, "key_gimbal_version_c04_4"
+0246 const/4                    v4, 7
+0248 invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+024e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0252 const-string               v1, "key_gimbal_version_c09_1"
+0256 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+025c move-result                v0
+025e const/4                    v1, 1
+0260 if-ge                      v0, v1, +010h
+0264 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0268 const-string               v4, "C9_F01.bin"
+026c invoke-static              v0, v3, v4, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0272 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0276 const-string               v4, "key_gimbal_version_c09_1"
+027a invoke-static              v0, v4, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0280 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0284 const-string               v4, "key_gimbal_version_c09_1_puran_360"
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+0290 const/4                    v4, 2
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+029a const-string               v5, "C9_F01_puran_360.bin"
+029e invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02a4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02a8 const-string               v5, "key_gimbal_version_c09_1_puran_360"
+02ac invoke-static              v0, v5, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02b2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+02ce invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02d4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02dc invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02e2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+02fe invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0304 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0308 const-string               v5, "key_gimbal_version_c09_4"
+030c invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0312 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+0322 if-ge                      v0, v4, +010h
+0326 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+032a const-string               v1, "C9_F04_puran_360.bin"
+032e invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0334 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0338 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+033c invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0342 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0346 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+034c move-result-object         v0
+034e const-string               v1, "BR8051A01B_HARMONY.bin"
+0352 const-string               v2, ""
+0356 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+035c iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0360 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+0366 move-result-object         v0
+0368 const-string               v1, "BR8051A01B_HARMONY_2s.bin"
+036c invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0372 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0376 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+037c move-result-object         v0
+037e const-string               v1, "BR8051A01B_HARMONY_5.bin"
+0382 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0388 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+038c invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+0392 move-result-object         v0
+0394 const-string               v1, "BR8051A01B_5_HOGP.bin"
+0398 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+039e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+03a2 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+03a8 move-result-object         v0
+03aa const-string               v1, "BR8051A01B_PI.bin"
+03ae invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+03b4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+03b8 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+03be move-result-object         v0
+03c0 const-string               v1, "BR8051A01B_PI_HOGP.bin"
+03c4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+03ca iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+03ce invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+03d4 move-result-object         v0
+03d6 const-string               v1, "BR8051A01B_5.bin"
+03da invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+03e0 const                      v0, 230414
+03e6 sput                       v0, LG0/a;->L I
+03ea sput                       v0, LG0/a;->M I
+03ee const                      v0, 231130
+03f4 sput                       v0, LG0/a;->N I
+03f8 const                      v0, 250603
+03fe sput                       v0, LG0/a;->O I
+0402 const                      v0, 210929
+0408 sput                       v0, LG0/a;->P I
+040c const                      v0, 240925
+0412 sput                       v0, LG0/a;->Q I
+0416 const                      v0, 231204
+041c sput                       v0, LG0/a;->R I
+0420 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0424 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+042a move-result-object         v0
+042c const-string               v1, "ble_control.bin"
+0430 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0436 return-void                

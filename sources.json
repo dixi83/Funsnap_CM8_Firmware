@@ -1,0 +1,316 @@
+[
+  {
+    "path": "documents/comparison/CM9-internal-photos.pdf",
+    "origin": "https://device.report/m/bac48d375453ed57fc0dad708b5ae613d6b963a1d7d58afdfd34abbf9849abde.pdf",
+    "description": "Previously downloaded FCC filing exhibit",
+    "size": 2180936,
+    "sha256": "bac48d375453ed57fc0dad708b5ae613d6b963a1d7d58afdfd34abbf9849abde"
+  },
+  {
+    "path": "documents/comparison/CM9-model-difference-8798614.pdf",
+    "origin": "https://fccid.io/2APVH-CM9/Letter/Declaration-Letter-of-Model-Difference-8798614.pdf",
+    "description": "Earlier Funsnap model comparison material examined during the research",
+    "size": 88221,
+    "sha256": "b4390ca79b57557145accc1637c22831f398030e7ada4bee319326d1da158dbb"
+  },
+  {
+    "path": "documents/comparison/Capture2-internal-photos-4462171.pdf",
+    "origin": "https://fccid.io/2APVH-CAPTURE2/Internal-Photos/09-Capture2-IntPho-4462171.pdf",
+    "description": "Earlier Funsnap model comparison material examined during the research",
+    "size": 1347150,
+    "sha256": "8ebbb89161e21dc0a7c64d62fe0cce32db52f12ce536ebb7d0e296e028c7e6c8"
+  },
+  {
+    "path": "documents/comparison/Capture2S-internal-photos-7931913.pdf",
+    "origin": "https://fccid.io/2APVH-CAPTURE2S/Internal-Photos/Internal-Photos-7931913.pdf",
+    "description": "Earlier Funsnap model comparison material examined during the research",
+    "size": 2347670,
+    "sha256": "004cf8aede0b1bc9e1995fd07bddbc4382f3f25ccaf4683d128639aa3fc8d50f"
+  },
+  {
+    "path": "documents/comparison/Capture3-internal-photos-5167609.pdf",
+    "origin": "https://fccid.io/2APVH-CAPTURE3/Internal-Photos/Internal-Photos-5167609.pdf",
+    "description": "Earlier Funsnap model comparison material examined during the research",
+    "size": 812832,
+    "sha256": "d5bcbba0cac3781bf2481ac3ce10f2e54beea1ab5b018fb2c06c1d6f0acf68aa"
+  },
+  {
+    "path": "documents/comparison/Capture3-model-difference-5167604.pdf",
+    "origin": "https://fccid.io/2APVH-CAPTURE3/Letter/Declaration-Letter-of-Model-Difference-5167604.pdf",
+    "description": "Earlier Funsnap model comparison material examined during the research",
+    "size": 46821,
+    "sha256": "6d2d62ae35949bbd0bd70e7bffa5075233fb052bafd68fcb69bf1b1ba9afb2b5"
+  },
+  {
+    "path": "documents/comparison/Gadnic-GIM00013-user-manual.pdf",
+    "origin": "https://www.gadnic.com.ar/descargas/GIM00013.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 1354742,
+    "sha256": "cf57e6407b8d4b08d4e613ba1a38fee93071eb91c893ab0f5a6a3784ed93596b"
+  },
+  {
+    "path": "documents/fcc/CM8-BT-test-report-8078946.pdf",
+    "origin": "https://fcc.report/FCC-ID/2APVH-CM8/8078946.pdf",
+    "description": "Previously downloaded FCC filing exhibit",
+    "size": 1046499,
+    "sha256": "f75469eaa15cdbc823bad9aee1df0cf52bdafe3d4afe3da86a70b2ed95e2de35"
+  },
+  {
+    "path": "documents/fcc/CM8-internal-photos-8078955.pdf",
+    "origin": "https://fccid.io/2APVH-CM8/Internal-Photos/Internal-Photos-8078955.pdf",
+    "description": "Previously downloaded FCC filing exhibit",
+    "size": 3282419,
+    "sha256": "9dbbb4b87e0ea08a11674edba39d720cd77feb5b99b87e409b15b3c63670876b"
+  },
+  {
+    "path": "documents/fcc/CM8-model-difference-8078952.pdf",
+    "origin": "https://fccid.io/2APVH-CM8/Letter/Declaration-Letter-of-Model-Difference-8078952.pdf",
+    "description": "Previously downloaded FCC filing exhibit",
+    "size": 87823,
+    "sha256": "3e3d35e1c452ad3339d51585edbe0fe19c99d8864b3497e4e248b0de2364906d"
+  },
+  {
+    "path": "documents/fcc/CM8-user-manual-8078965.pdf",
+    "origin": "https://fccid.io/2APVH-CM8/User-Manual/User-Manual-8078965.pdf",
+    "description": "CM8 FCC user manual exhibit, downloaded 2026-11-11",
+    "size": 2612491,
+    "sha256": "cceca6d2e5408030e4e4dfeeebdd13d64d64876192b98337321a304d9fb1ba2c"
+  },
+  {
+    "path": "documents/ic/PY32F030-datasheet.pdf",
+    "origin": "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F030_Datasheet_V2.4.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 2919025,
+    "sha256": "09ef1dce611d14aaa21830da96088c8a6fcd06cd66a9e6e38abdb5b64ffadbdf"
+  },
+  {
+    "path": "documents/ic/PY32F030-reference-manual.pdf",
+    "origin": "https://www.puyasemi.com/download_path/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F030_Reference_Manual_V1.3.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 13827593,
+    "sha256": "2b14d759915eef407cbc7d26d909571bf0fdc6735225035bb4cb7a4f222341e5"
+  },
+  {
+    "path": "documents/ic/PY32F040-datasheet.pdf",
+    "origin": "https://download.py32.org/Datasheet/en/PY32F040_Datasheet_Rev0.8.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 2765740,
+    "sha256": "2184c203fe55c87700b9c9e6e60c7fa6e57ece41eee4b95b226df9af63d6f855"
+  },
+  {
+    "path": "documents/ic/PY32F040-reference-manual.pdf",
+    "origin": "https://www.puyasemi.com/download_path/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F040_Reference_Manual_V0.2.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 19891495,
+    "sha256": "43e730262b237dc955fbb605ae7e104ef84916cf2138216f0a9c948dffa365bb"
+  },
+  {
+    "path": "documents/ic/PY32F403-datasheet.pdf",
+    "origin": "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F403_Datasheet_V1.3.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 3413555,
+    "sha256": "71ada7cfb416c0396e7d44614d4f7f20bfa3fa1b0c905447990f593209fc8d4e"
+  },
+  {
+    "path": "documents/ic/PY32F403-reference-manual.pdf",
+    "origin": "https://www.puyasemi.com/download_path/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F403_Reference_Manual_V1.3.pdf",
+    "description": "Downloaded reference PDF on 2026-11-11",
+    "size": 19844526,
+    "sha256": "49b81bcba130cf2fced9ca1f46285f224ffb02e69d5f29495bf120b2a04d5c49"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C3_F01.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C3_F01.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 95246,
+    "sha256": "8e45046abd71e7872c23734e999e66feb2c7e1b17c4ea32c0bcb341c630263d5"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C3_F01_st.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C3_F01_st.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 92982,
+    "sha256": "015ba5db9c454d5aad9a19940773dadd97459c58d368cab1c76b259d55ac1278"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C3_F01_st_302.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C3_F01_st_302.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 81894,
+    "sha256": "9b6daf2479c34599c7d3da0b292e79c2fa01656427c2b5696d91d023e18f8794"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C3_F04.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C3_F04.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 34502,
+    "sha256": "bf184177e37c19e87aace0e2832b3bc9010cb25641c1ff6fa2d5b436bdcd377c"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C4_F01.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C4_F01.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 100542,
+    "sha256": "5bf5214a75657b26c14be86a8d8f40e7f5142a80f5110d2c5092c22ffa9d1fca"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C4_F04.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C4_F04.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 32218,
+    "sha256": "968242a9fcc77617f5540246ba6a8b3d795651317ce4e851b56b8a3a0a7b90ac"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C9_F01.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C9_F01.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 102606,
+    "sha256": "9f8410b670a8b60493d6f54b20ec79ddd9a4ac2a37c20364f1258af581069e99"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C9_F01_puran_360.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C9_F01_puran_360.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 102582,
+    "sha256": "22c7a636f24e06cf8693f8dc7a75c097b8d2bf84b1755bb6e2f8f619ee033281"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C9_F01_puran_360_hall.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C9_F01_puran_360_hall.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 102398,
+    "sha256": "c508e32a54c963afff10e8d5942c4ada7e61c1509d7165093032b85cffbde4ce"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C9_F04.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C9_F04.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 33174,
+    "sha256": "c0e9b1bf3f22b26db489b20f1359d73833bc89358069d1db8b1db190e8f25bc7"
+  },
+  {
+    "path": "firmware/capture2-2.6.74/C9_F04_puran_360.bin",
+    "origin": "Capture 2 v2.6.74 APK, assets/firmware/C9_F04_puran_360.bin",
+    "description": "Unmodified bundled update asset, archived for offline research",
+    "size": 33678,
+    "sha256": "e7a52a5d0212c34196dd4f7eebca678d54a342acc773314313c58b622c2a96b0"
+  },
+  {
+    "path": "measurements/swd/20261110-0002.csv",
+    "origin": "Owner PicoScope capture",
+    "description": "SWCLK and SWDIO during unsuccessful connection attempts",
+    "size": 133400,
+    "sha256": "9d13bf44f1462ec37059215c55f58bb7df6a7843e67699fb9d022614b484cbb1"
+  },
+  {
+    "path": "measurements/swd/20261110-0002.psdata",
+    "origin": "Owner PicoScope capture",
+    "description": "SWCLK and SWDIO during unsuccessful connection attempts",
+    "size": 16882,
+    "sha256": "be617f39cfa353227d2b0ff724a0c12b911b0c0bb28323ba13f20483233d55c9"
+  },
+  {
+    "path": "measurements/swd/20261110.csv",
+    "origin": "Owner PicoScope capture",
+    "description": "SWCLK and SWDIO during unsuccessful connection attempts",
+    "size": 112892,
+    "sha256": "20c7fc0a201889fd8b0215d5ca8104f3aea337f5cef414074f8691948b656a9a"
+  },
+  {
+    "path": "measurements/swd/scope-01-waiting.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 102549,
+    "sha256": "688976b75494bf887d3a71139f836ff65c326072152cf5dba08be679c0a17b9e"
+  },
+  {
+    "path": "measurements/swd/scope-02-triggered.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 118122,
+    "sha256": "58127c7d89329decacb3024d775a7b8cce2be8b3cb7ad035da8db10da09ce5eb"
+  },
+  {
+    "path": "measurements/swd/scope-03-sampling.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 98801,
+    "sha256": "a1eeb22ceab8e4129e9a680a9f4ec99337bbe8074b67631ac932060463c11146"
+  },
+  {
+    "path": "measurements/swd/scope-04-rate-settings.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 19878,
+    "sha256": "e7fa21d83edead1c0be1f99ea049cdc5b9afc54c8037a89ba23d36554c96a34e"
+  },
+  {
+    "path": "measurements/swd/scope-05-buffer-settings.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 19613,
+    "sha256": "cf2d09140c10e703e20dec67d1dfa6df632550e1098fe27a273ecf73f3a7f597"
+  },
+  {
+    "path": "photos/motor/motor-connector-side.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02779.JPG",
+    "description": "Motor board connectors and test pads",
+    "size": 8394192,
+    "sha256": "2726e452bcaacca497b198d574044e1985b40556936b39c38b08cedd15c99cd6"
+  },
+  {
+    "path": "photos/motor/motor-mcu-closeup.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02778.JPG",
+    "description": "Motor board F030EF28 close-up",
+    "size": 6034119,
+    "sha256": "ee206b07cd8e4a114306c6933d147cc136f0740c0e2713c3c420f7640c1d9aa6"
+  },
+  {
+    "path": "photos/motor/motor-overview.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02777.JPG",
+    "description": "Motor board overview",
+    "size": 5822283,
+    "sha256": "cca295944bd75a2e080b95e5fc6ed4163a24b4bb1f3874ecb003a4f46c90e9fb"
+  },
+  {
+    "path": "photos/panel/panel-ble-closeup.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02776.JPG",
+    "description": "Panel rear and DY-B03-02-V3",
+    "size": 6745472,
+    "sha256": "1e9729d1e07d3703e4bc4a6951e645ec8ee00fd50c936e94524f1159bc3dcd53"
+  },
+  {
+    "path": "photos/panel/panel-ble-overview.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02774.JPG",
+    "description": "Panel rear and BLE module",
+    "size": 6528853,
+    "sha256": "c8397bb1af7c62fcbcdb1cf009469704521e726c994c6378ccd31cdf6e409b5b"
+  },
+  {
+    "path": "photos/panel/panel-mcu-front.jpg",
+    "origin": "Owner photograph",
+    "original_filename": "DSC02775.JPG",
+    "description": "Panel front, PY32F040 and controls",
+    "size": 7155905,
+    "sha256": "9d1d77696840eb3319f9147154c80d28d70c769d8b20f33a39fb975327796463"
+  },
+  {
+    "path": "photos/pinouts/motor-swd-annotated.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 1541026,
+    "sha256": "de66fdd405fe7f2ae997d42791fe9f90959b428f83dc042f403f40736e65b787"
+  },
+  {
+    "path": "photos/pinouts/panel-swd-annotated.png",
+    "origin": "Owner attachment",
+    "description": "Research session image",
+    "size": 1639535,
+    "sha256": "28eca7edca73be48c8530f580b1a7e29f436534fa9b91ba04da3dfa4948877c8"
+  }
+]

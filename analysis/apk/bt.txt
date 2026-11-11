@@ -1,0 +1,296 @@
+LG0/a$r;->run()V
+0000 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0004 invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+000a move-result-object         v0
+000c invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+0012 move-result-object         v0
+0014 const-string               v1, "hi-capture-12k4z"
+0018 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+001e move-result                v0
+0020 if-eqz                     v0, +022h
+0024 new-instance               v0, Ljava/lang/StringBuilder;
+0028 invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+002e invoke-static              LG0/a;->P()Landroid/content/Context;
+0034 move-result-object         v1
+0036 invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+003c move-result-object         v1
+003e invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+0044 sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+0048 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+004e const-string               v1, "BR8051A01B_HARMONY_2s.bin"
+0052 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0058 invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+005e move-result-object         v0
+0060 goto/16                    +12ah
+0064 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0068 invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+006e move-result-object         v0
+0070 invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+0076 move-result-object         v0
+0078 const-string               v1, "hi-capture-127xq"
+007c invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0082 move-result                v0
+0084 if-eqz                     v0, +022h
+0088 new-instance               v0, Ljava/lang/StringBuilder;
+008c invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+0092 invoke-static              LG0/a;->P()Landroid/content/Context;
+0098 move-result-object         v1
+009a invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+00a0 move-result-object         v1
+00a2 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+00a8 sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+00ac invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00b2 const-string               v1, "BR8051A01B_HARMONY.bin"
+00b6 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+00bc invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+00c2 move-result-object         v0
+00c4 goto/16                    +0f8h
+00c8 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+00cc invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+00d2 move-result-object         v0
+00d4 invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+00da move-result-object         v0
+00dc const-string               v1, "hi-capture-12lf3"
+00e0 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+00e6 move-result                v0
+00e8 if-eqz                     v0, +022h
+00ec new-instance               v0, Ljava/lang/StringBuilder;
+00f0 invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+00f6 invoke-static              LG0/a;->P()Landroid/content/Context;
+00fc move-result-object         v1
+00fe invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+0104 move-result-object         v1
+0106 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+010c sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+0110 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0116 const-string               v1, "BR8051A01B_HARMONY_5.bin"
+011a invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0120 invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0126 move-result-object         v0
+0128 goto/16                    +0c6h
+012c iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0130 invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+0136 move-result-object         v0
+0138 invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+013e move-result-object         v0
+0140 const-string               v1, "capture5"
+0144 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+014a move-result                v0
+014c if-nez                     v0, +065h
+0150 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0154 invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+015a move-result-object         v0
+015c invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+0162 move-result-object         v0
+0164 const-string               v1, "capture 5"
+0168 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+016e move-result                v0
+0170 if-eqz                     v0, +003h
+0174 goto                       +51h
+0176 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+017a invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+0180 move-result-object         v0
+0182 invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+0188 move-result-object         v0
+018a const-string               v1, "pi-"
+018e invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0194 move-result                v0
+0196 if-nez                     v0, +021h
+019a new-instance               v0, Ljava/lang/StringBuilder;
+019e invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+01a4 invoke-static              LG0/a;->P()Landroid/content/Context;
+01aa move-result-object         v1
+01ac invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+01b2 move-result-object         v1
+01b4 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+01ba sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+01be invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+01c4 const-string               v1, "BR8051A01B_PI.bin"
+01c8 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+01ce invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+01d4 move-result-object         v0
+01d6 goto                       +6fh
+01d8 new-instance               v0, Ljava/lang/StringBuilder;
+01dc invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+01e2 invoke-static              LG0/a;->P()Landroid/content/Context;
+01e8 move-result-object         v1
+01ea invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+01f0 move-result-object         v1
+01f2 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+01f8 sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+01fc invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0202 const-string               v1, "BR8051A01B_PI_HOGP.bin"
+0206 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+020c invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0212 move-result-object         v0
+0214 goto                       +50h
+0216 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+021a invoke-virtual             v0, LG0/a;->e0()Ljava/lang/String;
+0220 move-result-object         v0
+0222 invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+0228 move-result-object         v0
+022a const-string               v1, "app"
+022e invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0234 move-result                v0
+0236 if-nez                     v0, +021h
+023a new-instance               v0, Ljava/lang/StringBuilder;
+023e invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+0244 invoke-static              LG0/a;->P()Landroid/content/Context;
+024a move-result-object         v1
+024c invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+0252 move-result-object         v1
+0254 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+025a sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+025e invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0264 const-string               v1, "BR8051A01B_5_HOGP.bin"
+0268 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+026e invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0274 move-result-object         v0
+0276 goto                       +1fh
+0278 new-instance               v0, Ljava/lang/StringBuilder;
+027c invoke-direct              v0, Ljava/lang/StringBuilder;-><init>()V
+0282 invoke-static              LG0/a;->P()Landroid/content/Context;
+0288 move-result-object         v1
+028a invoke-virtual             v1, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+0290 move-result-object         v1
+0292 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+0298 sget-object                v1, Ljava/io/File;->separator Ljava/lang/String;
+029c invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+02a2 const-string               v1, "BR8051A01B_5.bin"
+02a6 invoke-virtual             v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+02ac invoke-virtual             v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+02b2 move-result-object         v0
+02b4 new-instance               v1, Ljava/io/File;
+02b8 invoke-direct              v1, v0, Ljava/io/File;-><init>(Ljava/lang/String;)V
+02be invoke-virtual             v1, Ljava/io/File;->length()J
+02c4 move-result-wide           v1
+02c6 const-wide/16              v3, 0
+02ca cmp-long                   v3, v1, v3
+02ce if-lez                     v3, +020h
+02d2 new-instance               v3, Ljava/io/RandomAccessFile;
+02d6 const-string               v4, "r"
+02da invoke-direct              v3, v0, v4, Ljava/io/RandomAccessFile;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+02e0 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+02e4 long-to-int                v1, v1
+02e6 new-array                  v1, v1, [B
+02ea invoke-static              v0, v1, LG0/a;->v(LG0/a; [B)V
+02f0 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+02f4 invoke-static              v0, LG0/a;->l(LG0/a;)[B
+02fa move-result-object         v0
+02fc invoke-virtual             v3, v0, Ljava/io/RandomAccessFile;->read([B)I
+0302 goto                       +6h
+0304 move-exception             v0
+0306 invoke-virtual             v0, Ljava/lang/Throwable;->printStackTrace()V
+030c return-void                
+030e const-wide/16              v0, 300
+0312 invoke-static              v0, v1, Ljava/lang/Thread;->sleep(J)V
+0318 goto                       +5h
+031a move-exception             v0
+031c invoke-virtual             v0, Ljava/lang/Throwable;->printStackTrace()V
+0322 iget-boolean               v0, v5, LG0/a$r;->c Z
+0326 const-string               v1, "BLE_SERVICE_LOG"
+032a if-nez                     v0, +0bah
+032e invoke-virtual             v5, Ljava/lang/Thread;->isInterrupted()Z
+0334 move-result                v0
+0336 if-nez                     v0, +0b4h
+033a iget-boolean               v0, v5, LG0/a$r;->i Z
+033e const/4                    v2, 1
+0340 if-nez                     v0, +051h
+0344 invoke-virtual             v5, LG0/a$r;->r()Z
+034a move-result                v0
+034c if-eqz                     v0, +047h
+0350 iget-boolean               v0, v5, LG0/a$r;->c Z
+0354 if-eqz                     v0, +004h
+0358 goto/16                    +0a3h
+035c iget                       v0, v5, LG0/a$r;->f I
+0360 if-eqz                     v0, +039h
+0364 iget                       v0, v5, LG0/a$r;->d I
+0368 if-eqz                     v0, +035h
+036c iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0370 invoke-static              v0, LG0/a;->l(LG0/a;)[B
+0376 move-result-object         v0
+0378 array-length               v0, v0
+037a iget                       v1, v5, LG0/a$r;->d I
+037e add-int/lit8               v1, v1, -4
+0382 rem-int/2addr              v0, v1
+0384 if-nez                     v0, +011h
+0388 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+038c invoke-static              v0, LG0/a;->l(LG0/a;)[B
+0392 move-result-object         v0
+0394 array-length               v0, v0
+0396 iget                       v1, v5, LG0/a$r;->d I
+039a add-int/lit8               v1, v1, -4
+039e div-int/2addr              v0, v1
+03a0 iput                       v0, v5, LG0/a$r;->j I
+03a4 goto                       +10h
+03a6 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+03aa invoke-static              v0, LG0/a;->l(LG0/a;)[B
+03b0 move-result-object         v0
+03b2 array-length               v0, v0
+03b4 iget                       v1, v5, LG0/a$r;->d I
+03b8 add-int/lit8               v1, v1, -4
+03bc div-int/2addr              v0, v1
+03be add-int/2addr              v0, v2
+03c0 iput                       v0, v5, LG0/a$r;->j I
+03c4 iput-boolean               v2, v5, LG0/a$r;->i Z
+03c8 const/4                    v0, 0
+03ca invoke-virtual             v5, v0, LG0/a$r;->m(I)V
+03d0 goto                       -57h
+03d2 invoke-virtual             v5, LG0/a$r;->l()V
+03d8 goto                       +63h
+03da invoke-virtual             v5, LG0/a$r;->l()V
+03e0 goto                       +5fh
+03e2 iget                       v0, v5, LG0/a$r;->g I
+03e6 iget                       v3, v5, LG0/a$r;->j I
+03ea const/16                   v4, 100
+03ee if-ge                      v0, v3, +04dh
+03f2 invoke-virtual             v5, v0, LG0/a$r;->s(I)Z
+03f8 move-result                v0
+03fa if-nez                     v0, +00bh
+03fe const-string               v0, "sendOTATransferCommand error"
+0402 invoke-static              v1, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+0408 invoke-virtual             v5, LG0/a$r;->l()V
+040e goto                       +48h
+0410 iget-boolean               v0, v5, LG0/a$r;->c Z
+0414 if-eqz                     v0, +008h
+0418 const-string               v0, "OTAThread is close"
+041c invoke-static              v1, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+0422 goto                       +3eh
+0424 iget                       v0, v5, LG0/a$r;->g I
+0428 iput                       v0, v5, LG0/a$r;->n I
+042c add-int/2addr              v0, v2
+042e iput                       v0, v5, LG0/a$r;->g I
+0432 iget                       v2, v5, LG0/a$r;->j I
+0436 if-eq                      v0, v2, +01bh
+043a new-instance               v0, Landroid/os/Message;
+043e invoke-direct              v0, Landroid/os/Message;-><init>()V
+0444 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+0448 iget                       v2, v5, LG0/a$r;->g I
+044c mul-int/2addr              v2, v4
+044e iget                       v3, v5, LG0/a$r;->j I
+0452 div-int/2addr              v2, v3
+0454 invoke-static              v0, v2, LG0/a;->x(LG0/a; I)V
+045a iget-object                v0, v5, LG0/a$r;->s LG0/a;
+045e invoke-static              v0, LG0/a;->p(LG0/a;)I
+0464 move-result                v0
+0466 invoke-virtual             v5, v0, LG0/a$r;->m(I)V
+046c iget                       v0, v5, LG0/a$r;->g I
+0470 iget                       v2, v5, LG0/a$r;->j I
+0474 if-lt                      v0, v2, +00ah
+0478 iget-object                v3, v5, LG0/a$r;->s LG0/a;
+047c mul-int/lit8               v0, v0, 100
+0480 div-int/2addr              v0, v2
+0482 invoke-static              v3, v0, LG0/a;->x(LG0/a; I)V
+0488 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+048c invoke-static              v0, LG0/a;->p(LG0/a;)I
+0492 move-result                v0
+0494 if-lt                      v0, v4, -0b9h
+0498 invoke-virtual             v5, v4, LG0/a$r;->m(I)V
+049e const-string               v0, "OTAThread quit"
+04a2 invoke-static              v1, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+04a8 iget-object                v0, v5, LG0/a$r;->p Ljava/util/List;
+04ac invoke-interface           v0, Ljava/util/List;->clear()V
+04b2 iget-object                v0, v5, LG0/a$r;->s LG0/a;
+04b6 const/4                    v1, 0
+04b8 invoke-static              v0, v1, LG0/a;->w(LG0/a; LG0/a$r;)V
+04be return-void                

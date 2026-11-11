@@ -1,0 +1,142 @@
+[
+  {
+    "apk_path": "assets/firmware/C2_F01.bin",
+    "size": 83954,
+    "sha256": "44e3069cff77b2f834b980c6fea42ae365fe44f8523e4be554ac915b88e2e10f",
+    "first_16_bytes": "c2 f1 0b 00 40 00 20 a1 31 00 08 47 44 00 08 5f",
+    "last_16_bytes": "08 20 3d 0c 01 26 29 68 69 04 01 12 00 c2 f1 0b"
+  },
+  {
+    "apk_path": "assets/firmware/C2_F01_st.bin",
+    "size": 87874,
+    "sha256": "bdd7fd2da9c95ad92ae807f0e29bd16c7c3bdd8adf20f9d6a2880ca20e9283d3",
+    "first_16_bytes": "c2 f1 0b 88 42 00 20 e1 81 00 08 6b af 00 08 71",
+    "last_16_bytes": "b7 d1 38 32 01 82 10 53 24 f4 00 00 00 c2 f1 0b"
+  },
+  {
+    "apk_path": "assets/firmware/C2_F04.bin",
+    "size": 24870,
+    "sha256": "7a349c5d839d588c8b9c71fd1ff9068d00fda5b03f102059f7844f95d7218be5",
+    "first_16_bytes": "c2 f4 08 f8 1e 00 20 cd 30 00 08 4d 3a 00 08 d1",
+    "last_16_bytes": "ff 01 01 47 0a 1d 02 ad 29 04 29 88 31 c2 f4 08"
+  },
+  {
+    "apk_path": "assets/firmware/C2_F04_cs.bin",
+    "size": 16958,
+    "sha256": "0fba240dfaef0b006c555d6de850b4fed3c2fa10ef6070a8301724f47762e829",
+    "first_16_bytes": "c2 f4 52 18 15 00 20 d1 30 00 08 e5 33 00 08 9d",
+    "last_16_bytes": "02 03 04 01 02 03 04 06 07 08 09 00 00 c2 f4 52"
+  },
+  {
+    "apk_path": "assets/firmware/C3_F01.bin",
+    "size": 95246,
+    "sha256": "8e45046abd71e7872c23734e999e66feb2c7e1b17c4ea32c0bcb341c630263d5",
+    "first_16_bytes": "c3 f1 0d 78 43 00 20 51 32 00 08 c7 49 00 08 df",
+    "last_16_bytes": "71 0b 00 09 00 01 02 03 04 06 07 08 09 c3 f1 0d"
+  },
+  {
+    "apk_path": "assets/firmware/C3_F01_st.bin",
+    "size": 92982,
+    "sha256": "015ba5db9c454d5aad9a19940773dadd97459c58d368cab1c76b259d55ac1278",
+    "first_16_bytes": "c3 f1 0d 20 43 00 20 dd 81 00 08 0b ae 00 08 b5",
+    "last_16_bytes": "17 b7 d1 38 32 01 82 10 53 24 f4 00 00 c3 f1 0d"
+  },
+  {
+    "apk_path": "assets/firmware/C3_F01_st_302.bin",
+    "size": 81894,
+    "sha256": "9b6daf2479c34599c7d3da0b292e79c2fa01656427c2b5696d91d023e18f8794",
+    "first_16_bytes": "c3 f1 0d 18 3f 00 20 a1 31 00 08 1f 43 00 08 37",
+    "last_16_bytes": "ea 08 20 3d 0c 01 3a 29 7c 69 04 01 1a c3 f1 0d"
+  },
+  {
+    "apk_path": "assets/firmware/C3_F04.bin",
+    "size": 34502,
+    "sha256": "bf184177e37c19e87aace0e2832b3bc9010cb25641c1ff6fa2d5b436bdcd377c",
+    "first_16_bytes": "c3 f4 0a d8 17 00 20 e1 30 00 08 19 36 00 08 31",
+    "last_16_bytes": "ff ff ff 20 4e a0 0f 00 00 00 00 00 00 c3 f4 0a"
+  },
+  {
+    "apk_path": "assets/firmware/C4_F01.bin",
+    "size": 100542,
+    "sha256": "5bf5214a75657b26c14be86a8d8f40e7f5142a80f5110d2c5092c22ffa9d1fca",
+    "first_16_bytes": "c4 f1 08 a0 48 00 20 45 31 00 08 d7 5d 00 08 dd",
+    "last_16_bytes": "e4 ba 7c aa aa b9 64 29 09 b2 08 00 00 c4 f1 08"
+  },
+  {
+    "apk_path": "assets/firmware/C4_F04.bin",
+    "size": 32218,
+    "sha256": "968242a9fcc77617f5540246ba6a8b3d795651317ce4e851b56b8a3a0a7b90ac",
+    "first_16_bytes": "c4 f4 07 d8 1a 00 20 d9 30 00 08 41 43 00 08 2d",
+    "last_16_bytes": "02 21 0a 3a 90 4b f1 da 04 9a 00 00 00 c4 f4 07"
+  },
+  {
+    "apk_path": "assets/firmware/C5_F01.bin",
+    "size": 96886,
+    "sha256": "8b1ab56e0dff49237e6d2c7564a9a80bdcb5c95638991d6d2d5f271240ece017",
+    "first_16_bytes": "c5 f1 0f 90 4a 00 20 dd 81 00 08 db b0 00 08 29",
+    "last_16_bytes": "17 b7 d1 38 29 a5 82 10 53 24 f4 00 00 c5 f1 0f"
+  },
+  {
+    "apk_path": "assets/firmware/C5_F01_puran.bin",
+    "size": 106210,
+    "sha256": "5b4ebd7bd12cea2296ebfae7899704eafbaa37692512a5ce5272abd083cd0e3c",
+    "first_16_bytes": "c5 f1 12 68 4a 00 20 45 31 00 08 13 61 00 08 21",
+    "last_16_bytes": "b9 01 85 0a d7 23 3c 29 11 b2 08 00 00 c5 f1 12"
+  },
+  {
+    "apk_path": "assets/firmware/C5_F01_py.bin",
+    "size": 106958,
+    "sha256": "c7d4a1e8fd212700fde6ee0a481927c31fe2a7a5547b066cacd15c8b7ab25291",
+    "first_16_bytes": "c5 f1 1e 98 4a 00 20 45 31 00 08 13 61 00 08 21",
+    "last_16_bytes": "aa b9 01 85 0a d7 23 3c 29 11 b2 08 00 c5 f1 1e"
+  },
+  {
+    "apk_path": "assets/firmware/C5_F04.bin",
+    "size": 25430,
+    "sha256": "36411c455b7d1bebe9d87eabc23cabab067cfa0490c22f01695a82d9e023a890",
+    "first_16_bytes": "c5 f4 0d 48 1c 00 20 cd 30 00 08 81 35 00 08 39",
+    "last_16_bytes": "01 02 03 04 04 35 06 07 08 09 00 00 00 c5 f4 0d"
+  },
+  {
+    "apk_path": "assets/firmware/C5_F04_4g.bin",
+    "size": 29482,
+    "sha256": "c023434628c95eaa975a7471b68728231e43c54a2d69d5bd0741f0a9b35cf059",
+    "first_16_bytes": "c5 f4 14 88 1c 00 20 cd 30 00 08 85 36 00 08 15",
+    "last_16_bytes": "2d 01 02 03 04 04 25 06 07 08 09 00 00 c5 f4 14"
+  },
+  {
+    "apk_path": "assets/firmware/C9_F01.bin",
+    "size": 102606,
+    "sha256": "9f8410b670a8b60493d6f54b20ec79ddd9a4ac2a37c20364f1258af581069e99",
+    "first_16_bytes": "c9 f1 01 a8 48 00 20 45 31 00 08 d7 5d 00 08 dd",
+    "last_16_bytes": "c3 e4 ba 7c aa aa b9 64 29 09 b2 08 00 c9 f1 01"
+  },
+  {
+    "apk_path": "assets/firmware/C9_F01_puran_360.bin",
+    "size": 102582,
+    "sha256": "22c7a636f24e06cf8693f8dc7a75c097b8d2bf84b1755bb6e2f8f619ee033281",
+    "first_16_bytes": "cb f1 02 58 49 00 20 45 31 00 08 d7 5d 00 08 dd",
+    "last_16_bytes": "c3 e4 ba 7c aa aa b9 64 29 09 b2 08 00 cb f1 02"
+  },
+  {
+    "apk_path": "assets/firmware/C9_F01_puran_360_hall.bin",
+    "size": 102398,
+    "sha256": "c508e32a54c963afff10e8d5942c4ada7e61c1509d7165093032b85cffbde4ce",
+    "first_16_bytes": "cb f1 01 50 49 00 20 45 31 00 08 83 5d 00 08 1d",
+    "last_16_bytes": "e4 ba 7c aa aa b9 64 29 09 b2 08 00 00 cb f1 01"
+  },
+  {
+    "apk_path": "assets/firmware/C9_F04.bin",
+    "size": 33174,
+    "sha256": "c0e9b1bf3f22b26db489b20f1359d73833bc89358069d1db8b1db190e8f25bc7",
+    "first_16_bytes": "c9 f4 01 00 1b 00 20 d5 30 00 08 7d 43 00 08 99",
+    "last_16_bytes": "30 02 21 0a 3b 90 4c e1 9a 04 9b 00 00 c9 f4 01"
+  },
+  {
+    "apk_path": "assets/firmware/C9_F04_puran_360.bin",
+    "size": 33678,
+    "sha256": "e7a52a5d0212c34196dd4f7eebca678d54a342acc773314313c58b622c2a96b0",
+    "first_16_bytes": "cb f4 02 08 1b 00 20 d5 30 00 08 a5 43 00 08 c1",
+    "last_16_bytes": "30 02 21 0a 3b 90 4c 01 10 9a 04 9d 00 cb f4 02"
+  }
+]

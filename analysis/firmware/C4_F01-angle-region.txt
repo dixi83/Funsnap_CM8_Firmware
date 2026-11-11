@@ -1,0 +1,184 @@
+C4_F01.bin v8, wrapper removed, payload base 0x08003000
+Capstone 5.0.7, Thumb / MCLASS, linear region disassembly
+Function boundaries, code/data distinction and semantics remain research questions.
+
+08008D2A  df f8 9c b1   ldr.w      fp, [pc, #0x19c]
+08008D2E  df ed 67 2a   vldr       s5, [pc, #0x19c]
+08008D32  df f8 9c c1   ldr.w      ip, [pc, #0x19c]
+08008D36  9c ed 02 2a   vldr       s4, [ip, #8]
+08008D3A  1f ed bc 3a   vldr       s6, [pc, #-0x2f0]
+08008D3E  33 ee 42 2a   vsub.f32   s4, s6, s4
+08008D42  b0 ee c2 2a   vabs.f32   s4, s4
+08008D46  e9 b3         cbz        r1, #0x8008dc4
+08008D48  01 29         cmp        r1, #1
+08008D4A  69 d0         beq        #0x8008e20
+08008D4C  9f ed 61 3a   vldr       s6, [pc, #0x184]
+08008D50  02 29         cmp        r1, #2
+08008D52  7c d0         beq        #0x8008e4e
+08008D54  03 29         cmp        r1, #3
+08008D56  7b d0         beq        #0x8008e50
+08008D58  04 29         cmp        r1, #4
+08008D5A  7a d0         beq        #0x8008e52
+08008D5C  05 29         cmp        r1, #5
+08008D5E  79 d0         beq        #0x8008e54
+08008D60  dc ed 02 0a   vldr       s1, [ip, #8]
+08008D64  1f ed c6 2a   vldr       s4, [pc, #-0x318]
+08008D68  06 29         cmp        r1, #6
+08008D6A  72 ee 60 0a   vsub.f32   s1, s4, s1
+08008D6E  f0 ee e0 0a   vabs.f32   s1, s1
+08008D72  70 d0         beq        #0x8008e56
+08008D74  07 29         cmp        r1, #7
+08008D76  6f d0         beq        #0x8008e58
+08008D78  08 29         cmp        r1, #8
+08008D7A  6e d0         beq        #0x8008e5a
+08008D7C  ab f8 54 80   strh.w     r8, [fp, #0x54]
+08008D80  c8 45         cmp        r8, sb
+08008D82  1a d9         bls        #0x8008dba
+08008D84  df f8 3c 81   ldr.w      r8, [pc, #0x13c]
+08008D88  64 20         movs       r0, #0x64
+08008D8A  88 f8 00 00   strb.w     r0, [r8]
+08008D8E  61 20         movs       r0, #0x61
+08008D90  88 f8 01 00   strb.w     r0, [r8, #1]
+08008D94  14 20         movs       r0, #0x14
+08008D96  88 f8 02 00   strb.w     r0, [r8, #2]
+08008D9A  03 20         movs       r0, #3
+08008D9C  88 f8 03 00   strb.w     r0, [r8, #3]
+08008DA0  04 21         movs       r1, #4
+08008DA2  40 46         mov        r0, r8
+08008DA4  00 f0 bc fb   bl         #0x8009520
+08008DA8  88 f8 04 00   strb.w     r0, [r8, #4]
+08008DAC  05 21         movs       r1, #5
+08008DAE  40 46         mov        r0, r8
+08008DB0  11 f0 2a f8   bl         #0x8019e08
+08008DB4  00 20         movs       r0, #0
+08008DB6  ab f8 54 00   strh.w     r0, [fp, #0x54]
+08008DBA  85 ed 00 8a   vstr       s16, [r5]
+08008DBE  84 ed 1e 8a   vstr       s16, [r4, #0x78]
+08008DC2  ef e1         b          #0x80091a4
+08008DC4  ff e7         b          #0x8008dc6
+08008DC6  85 ed 00 1a   vstr       s2, [r5]
+08008DCA  2a b1         cbz        r2, #0x8008dd8
+08008DCC  c4 ed 1e 1a   vstr       s3, [r4, #0x78]
+08008DD0  28 b1         cbz        r0, #0x8008dde
+08008DD2  03 28         cmp        r0, #3
+08008DD4  1e d0         beq        #0x8008e14
+08008DD6  e5 e1         b          #0x80091a4
+08008DD8  c4 ed 1e 2a   vstr       s5, [r4, #0x78]
+08008DDC  f8 e7         b          #0x8008dd0
+08008DDE  2d 49         ldr        r1, [pc, #0xb4]
+08008DE0  d4 ed 1e 0a   vldr       s1, [r4, #0x78]
+08008DE4  2c 4a         ldr        r2, [pc, #0xb0]
+08008DE6  91 ed 02 1a   vldr       s2, [r1, #8]
+08008DEA  70 ee 81 0a   vadd.f32   s1, s1, s2
+08008DEE  30 ee c0 0a   vsub.f32   s0, s1, s0
+08008DF2  b0 ee c0 0a   vabs.f32   s0, s0
+08008DF6  10 ee 10 0a   vmov       r0, s0
+08008DFA  90 42         cmp        r0, r2
+08008DFC  09 da         bge        #0x8008e12
+08008DFE  12 ee 10 0a   vmov       r0, s4
+08008E02  90 42         cmp        r0, r2
+08008E04  05 da         bge        #0x8008e12
+08008E06  8b f8 32 30   strb.w     r3, [fp, #0x32]
+08008E0A  00 20         movs       r0, #0
+08008E0C  c8 62         str        r0, [r1, #0x2c]
+08008E0E  23 49         ldr        r1, [pc, #0x8c]
+08008E10  08 70         strb       r0, [r1]
+08008E12  c7 e1         b          #0x80091a4
+08008E14  8b f8 0c 30   strb.w     r3, [fp, #0xc]
+08008E18  00 20         movs       r0, #0
+08008E1A  8b f8 32 00   strb.w     r0, [fp, #0x32]
+08008E1E  c1 e1         b          #0x80091a4
+08008E20  85 ed 00 1a   vstr       s2, [r5]
+08008E24  84 ed 1e 8a   vstr       s16, [r4, #0x78]
+08008E28  10 b1         cbz        r0, #0x8008e30
+08008E2A  03 28         cmp        r0, #3
+08008E2C  21 d0         beq        #0x8008e72
+08008E2E  b9 e1         b          #0x80091a4
+08008E30  18 4a         ldr        r2, [pc, #0x60]
+08008E32  19 49         ldr        r1, [pc, #0x64]
+08008E34  d2 ed 02 0a   vldr       s1, [r2, #8]
+08008E38  78 ee 20 0a   vadd.f32   s1, s16, s1
+08008E3C  30 ee c0 0a   vsub.f32   s0, s1, s0
+08008E40  b0 ee c0 0a   vabs.f32   s0, s0
+08008E44  10 ee 10 0a   vmov       r0, s0
+08008E48  88 42         cmp        r0, r1
+08008E4A  11 da         bge        #0x8008e70
+08008E4C  06 e0         b          #0x8008e5c
+08008E4E  16 e0         b          #0x8008e7e
+08008E50  69 e0         b          #0x8008f26
+08008E52  95 e0         b          #0x8008f80
+08008E54  bd e0         b          #0x8008fd2
+08008E56  e9 e0         b          #0x800902c
+08008E58  16 e1         b          #0x8009088
+08008E5A  3c e1         b          #0x80090d6
+08008E5C  12 ee 10 0a   vmov       r0, s4
+08008E60  88 42         cmp        r0, r1
+08008E62  05 da         bge        #0x8008e70
+08008E64  8b f8 32 30   strb.w     r3, [fp, #0x32]
+08008E68  00 20         movs       r0, #0
+08008E6A  d0 62         str        r0, [r2, #0x2c]
+08008E6C  0b 49         ldr        r1, [pc, #0x2c]
+08008E6E  08 70         strb       r0, [r1]
+08008E70  98 e1         b          #0x80091a4
+08008E72  8b f8 0c 60   strb.w     r6, [fp, #0xc]
+08008E76  00 20         movs       r0, #0
+08008E78  8b f8 32 00   strb.w     r0, [fp, #0x32]
+08008E7C  92 e1         b          #0x80091a4
+08008E7E  85 ed 00 1a   vstr       s2, [r5]
+08008E82  4a b3         cbz        r2, #0x8008ed8
+08008E84  84 ed 1e 1a   vstr       s2, [r4, #0x78]
+08008E88  38 b3         cbz        r0, #0x8008eda
+08008E8A  03 28         cmp        r0, #3
+08008E8C  44 d0         beq        #0x8008f18
+08008E8E  89 e1         b          #0x80091a4
+08008E90  db 0f         lsrs       r3, r3, #0x1f
+08008E92  49 3f         subs       r7, #0x49
+08008E94  e0 08         lsrs       r0, r4, #3
+08008E96  00 20         movs       r0, #0
+08008E98  35 fa         .byte      0x35, 0xfa
+08008E9A  0e 3d         subs       r5, #0xe
+08008E9C  8d 0a         lsrs       r5, r1, #0xa
+08008E9E  00 20         movs       r0, #0
+08008EA0  c3 b8         .byte      0xc3, 0xb8
+08008EA2  32 3e         subs       r6, #0x32
+08008EA4  92 0a         lsrs       r2, r2, #0xa
+08008EA6  86 3e         subs       r6, #0x86
+08008EA8  c3 b8         .byte      0xc3, 0xb8
+08008EAA  32 be         bkpt       #0x32
+08008EAC  92 0a         lsrs       r2, r2, #0xa
+08008EAE  86 be         bkpt       #0x86
+08008EB0  db 0f         lsrs       r3, r3, #0x1f
+08008EB2  49 bf         itett      mi
+08008EB4  f3 66         strmi      r3, [r6, #0x6c]
+08008EB6  5f bf         itttt      pl
+08008EB8  37 8d         ldrhpl     r7, [r6, #0x28]
+08008EBA  a7 bf         ittee      ge
+08008EBC  ab 61         strmi      r3, [r5, #0x18]
+08008EBE  9c bf         itt        ls
+08008EC0  80 92         strmi      r2, [sp, #0x200]
+08008EC2  ea bf         itet       al
+08008EC4  d4 30         add        r0, #0xd4
+08008EC6  00 20         mov        r0, #0
+08008EC8  60 07         lsl        r0, r4, #0x1d
+08008ECA  00 20         movs       r0, #0
+08008ECC  f3 66         str        r3, [r6, #0x6c]
+08008ECE  df 3e         subs       r6, #0xdf
+08008ED0  10 38         subs       r0, #0x10
+08008ED2  00 20         movs       r0, #0
+08008ED4  f3 66         str        r3, [r6, #0x6c]
+08008ED6  df be         bkpt       #0xdf
+08008ED8  00 e0         b          #0x8008edc
+08008EDA  02 e0         b          #0x8008ee2
+08008EDC  84 ed 1e 3a   vstr       s6, [r4, #0x78]
+08008EE0  d2 e7         b          #0x8008e88
+08008EE2  ff 4a         ldr        r2, [pc, #0x3fc]
+08008EE4  d4 ed 1e 0a   vldr       s1, [r4, #0x78]
+08008EE8  fe 49         ldr        r1, [pc, #0x3f8]
+08008EEA  92 ed 02 1a   vldr       s2, [r2, #8]
+08008EEE  70 ee 81 0a   vadd.f32   s1, s1, s2
+08008EF2  30 ee c0 0a   vsub.f32   s0, s1, s0
+08008EF6  b0 ee c0 0a   vabs.f32   s0, s0
+08008EFA  10 ee 10 0a   vmov       r0, s0
+08008EFE  88 42         cmp        r0, r1
+08008F00  09 da         bge        #0x8008f16
+08008F02  12 ee         .byte      0x12, 0xee

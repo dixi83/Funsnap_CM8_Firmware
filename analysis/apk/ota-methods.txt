@@ -1,0 +1,590 @@
+LI1/w$a;-><init>(LI1/w; S)V
+0000 iput-object                v1, v0, LI1/w$a;->b LI1/w;
+0004 iput-short                 v2, v0, LI1/w$a;->a S
+0008 invoke-direct              v0, Ljava/lang/Object;-><init>()V
+000e return-void                
+LI1/w$a;->run()V
+0000 iget-object                v0, v2, LI1/w$a;->b LI1/w;
+0004 const/4                    v1, 1
+0006 invoke-static              v0, v1, LI1/w;->b(LI1/w; Z)V
+000c iget-object                v0, v2, LI1/w$a;->b LI1/w;
+0010 iget-short                 v1, v2, LI1/w$a;->a S
+0014 invoke-virtual             v0, v1, LI1/w;->g(I)V
+001a iget-object                v0, v2, LI1/w$a;->b LI1/w;
+001e const/4                    v1, 0
+0020 invoke-static              v0, v1, LI1/w;->b(LI1/w; Z)V
+0026 iget-object                v0, v2, LI1/w$a;->b LI1/w;
+002a iget-short                 v1, v2, LI1/w$a;->a S
+002e invoke-static              v0, v1, LI1/w;->a(LI1/w; S)V
+0034 return-void                
+LI1/w;-><clinit>()V
+0000 return-void                
+LI1/w;-><init>()V
+0000 invoke-direct              v1, Ljava/lang/Object;-><init>()V
+0006 const-string               v0, "C2_F01.bin"
+000a iput-object                v0, v1, LI1/w;->a Ljava/lang/String;
+000e const-string               v0, "C2_F01_st.bin"
+0012 iput-object                v0, v1, LI1/w;->b Ljava/lang/String;
+0016 const-string               v0, "C2_F02.bin"
+001a iput-object                v0, v1, LI1/w;->c Ljava/lang/String;
+001e const-string               v0, "C2_F03.bin"
+0022 iput-object                v0, v1, LI1/w;->d Ljava/lang/String;
+0026 const-string               v0, "C2_F04.bin"
+002a iput-object                v0, v1, LI1/w;->e Ljava/lang/String;
+002e const-string               v0, "C2_F04_cs.bin"
+0032 iput-object                v0, v1, LI1/w;->f Ljava/lang/String;
+0036 const-string               v0, "C3_F01.bin"
+003a iput-object                v0, v1, LI1/w;->g Ljava/lang/String;
+003e const-string               v0, "C3_F01_st.bin"
+0042 iput-object                v0, v1, LI1/w;->h Ljava/lang/String;
+0046 const-string               v0, "C3_F01_st_302.bin"
+004a iput-object                v0, v1, LI1/w;->i Ljava/lang/String;
+004e const-string               v0, "C3_F02.bin"
+0052 iput-object                v0, v1, LI1/w;->j Ljava/lang/String;
+0056 const-string               v0, "C3_F03.bin"
+005a iput-object                v0, v1, LI1/w;->k Ljava/lang/String;
+005e const-string               v0, "C3_F04.bin"
+0062 iput-object                v0, v1, LI1/w;->l Ljava/lang/String;
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+00c2 iput-object                v0, v1, LI1/w;->x Ljava/lang/String;
+00c6 const/4                    v0, 0
+00c8 iput-boolean               v0, v1, LI1/w;->y Z
+00cc const/4                    v0, 1
+00ce iput                       v0, v1, LI1/w;->z I
+00d2 const/16                   v0, 1024
+00d6 new-array                  v0, v0, [B
+00da iput-object                v0, v1, LI1/w;->B [B
+00de const/16                   v0, 200
+00e2 new-array                  v0, v0, [B
+00e6 iput-object                v0, v1, LI1/w;->C [B
+00ea const/16                   v0, 20
+00ee new-array                  v0, v0, [B
+00f2 iput-object                v0, v1, LI1/w;->D [B
+00f6 const/16                   v0, 40
+00fa iput                       v0, v1, LI1/w;->F I
+00fe const/16                   v0, 256
+0102 new-array                  v0, v0, [I
+0106 fill-array-data            v0, +0000007h
+010c iput-object                v0, v1, LI1/w;->H [I
+0110 return-void                
+0112 nop                        
+0114 fill-array-data-payload    b'\x00\x00\x00\x00\x960\x07w,a\x0e\xee\xbaQ\t\x99\x19\xc4m\x07\x8f\xf4jp5\xa5c\xe9\xa3\x95d\x9e2\x88\xdb\x0e\xa4\xb8\xdcy\x1e\xe9\xd5\xe0\x88\xd9\xd2\x97+L\xb6\t\xbd|\xb1~\x07-\xb8\xe7\x91\x1d\xbf\x90d\x10\xb7\x1d\xf2 \xb0jHq\xb9\xf3\xdeA\xbe\x84}\xd4\xda\x1a\xeb\xe4\xddmQ\xb5\xd4\xf4\xc7\x85\xd3\x83V\x98l\x13\xc0\xa8kdz\xf9b\xfd\xec\xc9e\x8aO\\\x01\x14\xd9l\x06cc=\x0f\xfa\xf5\r\x08\x8d\xc8 n;^\x10iL\xe4A`\xd5rqg\xa2\xd1\xe4\x03<G\xd4\x04K\xfd\x85\r\xd2k\xb5\n\xa5\xfa\xa8\xb55l\x98\xb2B\xd6\xc9\xbb\xdb@\xf9\xbc\xac\xe3l\xd82u\\\xdfE\xcf\r\xd6\xdcY=\xd1\xab\xac0\xd9&:\x00\xdeQ\x80Q\xd7\xc8\x16a\xd0\xbf\xb5\xf4\xb4!#\xc4\xb3V\x99\x95\xba\xcf\x0f\xa5\xbd\xb8\x9e\xb8\x02(\x08\x88\x05_\xb2\xd9\x0c\xc6$\xe9\x0b\xb1\x87|o/\x11LhX\xab\x1da\xc1=-f\xb6\x90A\xdcv\x06q\xdb\x01\xbc \xd2\x98*\x10\xd5\xef\x89\x85\xb1q\x1f\xb5\xb6\x06\xa5\xe4\xbf\x9f3\xd4\xb8\xe8\xa2\xc9\x07x4\xf9\x00\x0f\x8e\xa8\t\x96\x18\x98\x0e\xe1\xbb\rj\x7f-=m\x08\x97ld\x91\x01\\c\xe6\xf4Qkkbal\x1c\xd80e\x85N\x00b\xf2\xed\x95\x06l{\xa5\x01\x1b\xc1\xf4\x08\x82W\xc4\x0f\xf5\xc6\xd9\xb0eP\xe9\xb7\x12\xea\xb8\xbe\x8b|\x88\xb9\xfc\xdf\x1d\xddbI-\xda\x15\xf3|\xd3\x8ceL\xd4\xfbXa\xb2M\xceQ\xb5:t\x00\xbc\xa3\xe20\xbb\xd4A\xa5\xdfJ\xd7\x95\xd8=m\xc4\xd1\xa4\xfb\xf4\xd6\xd3j\xe9iC\xfc\xd9n4F\x88g\xad\xd0\xb8`\xdas-\x04D\xe5\x1d\x033_L\n\xaa\xc9|\r\xdd<q\x05P\xaaA\x02\'\x10\x10\x0b\xbe\x86 \x0c\xc9%\xb5hW\xb3\x85o \t\xd4f\xb9\x9f\xe4a\xce\x0e\xf9\xde^\x98\xc9\xd9)"\x98\xd0\xb0\xb4\xa8\xd7\xc7\x17=\xb3Y\x81\r\xb4.;\\\xbd\xb7\xadl\xba\xc0 \x83\xb8\xed\xb6\xb3\xbf\x9a\x0c\xe2\xb6\x03\x9a\xd2\xb1t9G\xd5\xea\xafw\xd2\x9d\x15&\xdb\x04\x83\x16\xdcs\x12\x0bc\xe3\x84;d\x94>jm\r\xa8Zjz\x0b\xcf\x0e\xe4\x9d\xff\t\x93\'\xae\x00\n\xb1\x9e\x07}D\x93\x0f\xf0\xd2\xa3\x08\x87h\xf2\x01\x1e\xfe\xc2\x06i]Wb\xf7\xcbge\x80q6l\x19\xe7\x06knv\x1b\xd4\xfe\xe0+\xd3\x89Zz\xda\x10\xccJ\xddgo\xdf\xb9\xf9\xf9\xef\xbe\x8eC\xbe\xb7\x17\xd5\x8e\xb0`\xe8\xa3\xd6\xd6~\x93\xd1\xa1\xc4\xc2\xd88R\xf2\xdfO\xf1g\xbb\xd1gW\xbc\xa6\xdd\x06\xb5?K6\xb2H\xda+\r\xd8L\x1b\n\xaf\xf6J\x036`z\x04A\xc3\xef`\xdfU\xdfg\xa8\xef\x8en1y\xbeiF\x8c\xb3a\xcb\x1a\x83f\xbc\xa0\xd2o%6\xe2hR\x95w\x0c\xcc\x03G\x0b\xbb\xb9\x16\x02"/&\x05U\xbe;\xba\xc5(\x0b\xbd\xb2\x92Z\xb4+\x04j\xb3\\\xa7\xff\xd7\xc21\xcf\xd0\xb5\x8b\x9e\xd9,\x1d\xae\xde[\xb0\xc2d\x9b&\xf2c\xec\x9c\xa3ju\n\x93m\x02\xa9\x06\t\x9c?6\x0e\xeb\x85g\x07r\x13W\x00\x05\x82J\xbf\x95\x14z\xb8\xe2\xae+\xb1{8\x1b\xb6\x0c\x9b\x8e\xd2\x92\r\xbe\xd5\xe5\xb7\xef\xdc|!\xdf\xdb\x0b\xd4\xd2\xd3\x86B\xe2\xd4\xf1\xf8\xb3\xddhn\x83\xda\x1f\xcd\x16\xbe\x81[&\xb9\xf6\xe1w\xb0owG\xb7\x18\xe6Z\x08\x88pj\x0f\xff\xca;\x06f\\\x0b\x01\x11\xff\x9ee\x8fi\xaeb\xf8\xd3\xffkaE\xcfl\x16x\xe2\n\xa0\xee\xd2\r\xd7T\x83\x04N\xc2\xb3\x039a&g\xa7\xf7\x16`\xd0MGiI\xdbwn>Jj\xd1\xae\xdcZ\xd6\xd9f\x0b\xdf@\xf0;\xd87S\xae\xbc\xa9\xc5\x9e\xbb\xde\x7f\xcf\xb2G\xe9\xff\xb50\x1c\xf2\xbd\xbd\x8a\xc2\xba\xca0\x93\xb3S\xa6\xa3\xb4$\x056\xd0\xba\x93\x06\xd7\xcd)W\xdeT\xbfg\xd9#.zf\xb3\xb8Ja\xc4\x02\x1bh]\x94+o*7\xbe\x0b\xb4\xa1\x8e\x0c\xc3\x1b\xdf\x05Z\x8d\xef\x02-' | \x00\x00\x00\x00\x96\x30\x07\x77\x2c\x61\x0e\xee\xba\x51\x09\x99\x19\xc4\x6d\x07\x8f\xf4\x6a\x70\x35\xa5\x63\xe9\xa3\x95\x64\x9e\x32\x88\xdb\x0e\xa4\xb8\xdc\x79\x1e\xe9\xd5\xe0\x88\xd9\xd2\x97\x2b\x4c\xb6\x09\xbd\x7c\xb1\x7e\x07\x2d\xb8\xe7\x91\x1d\xbf\x90\x64\x10\xb7\x1d\xf2\x20\xb0\x6a\x48\x71\xb9\xf3\xde\x41\xbe\x84\x7d\xd4\xda\x1a\xeb\xe4\xdd\x6d\x51\xb5\xd4\xf4\xc7\x85\xd3\x83\x56\x98\x6c\x13\xc0\xa8\x6b\x64\x7a\xf9\x62\xfd\xec\xc9\x65\x8a\x4f\x5c\x01\x14\xd9\x6c\x06\x63\x63\x3d\x0f\xfa\xf5\x0d\x08\x8d\xc8\x20\x6e\x3b\x5e\x10\x69\x4c\xe4\x41\x60\xd5\x72\x71\x67\xa2\xd1\xe4\x03\x3c\x47\xd4\x04\x4b\xfd\x85\x0d\xd2\x6b\xb5\x0a\xa5\xfa\xa8\xb5\x35\x6c\x98\xb2\x42\xd6\xc9\xbb\xdb\x40\xf9\xbc\xac\xe3\x6c\xd8\x32\x75\x5c\xdf\x45\xcf\x0d\xd6\xdc\x59\x3d\xd1\xab\xac\x30\xd9\x26\x3a\x00\xde\x51\x80\x51\xd7\xc8\x16\x61\xd0\xbf\xb5\xf4\xb4\x21\x23\xc4\xb3\x56\x99\x95\xba\xcf\x0f\xa5\xbd\xb8\x9e\xb8\x02\x28\x08\x88\x05\x5f\xb2\xd9\x0c\xc6\x24\xe9\x0b\xb1\x87\x7c\x6f\x2f\x11\x4c\x68\x58\xab\x1d\x61\xc1\x3d\x2d\x66\xb6\x90\x41\xdc\x76\x06\x71\xdb\x01\xbc\x20\xd2\x98\x2a\x10\xd5\xef\x89\x85\xb1\x71\x1f\xb5\xb6\x06\xa5\xe4\xbf\x9f\x33\xd4\xb8\xe8\xa2\xc9\x07\x78\x34\xf9\x00\x0f\x8e\xa8\x09\x96\x18\x98\x0e\xe1\xbb\x0d\x6a\x7f\x2d\x3d\x6d\x08\x97\x6c\x64\x91\x01\x5c\x63\xe6\xf4\x51\x6b\x6b\x62\x61\x6c\x1c\xd8\x30\x65\x85\x4e\x00\x62\xf2\xed\x95\x06\x6c\x7b\xa5\x01\x1b\xc1\xf4\x08\x82\x57\xc4\x0f\xf5\xc6\xd9\xb0\x65\x50\xe9\xb7\x12\xea\xb8\xbe\x8b\x7c\x88\xb9\xfc\xdf\x1d\xdd\x62\x49\x2d\xda\x15\xf3\x7c\xd3\x8c\x65\x4c\xd4\xfb\x58\x61\xb2\x4d\xce\x51\xb5\x3a\x74\x00\xbc\xa3\xe2\x30\xbb\xd4\x41\xa5\xdf\x4a\xd7\x95\xd8\x3d\x6d\xc4\xd1\xa4\xfb\xf4\xd6\xd3\x6a\xe9\x69\x43\xfc\xd9\x6e\x34\x46\x88\x67\xad\xd0\xb8\x60\xda\x73\x2d\x04\x44\xe5\x1d\x03\x33\x5f\x4c\x0a\xaa\xc9\x7c\x0d\xdd\x3c\x71\x05\x50\xaa\x41\x02\x27\x10\x10\x0b\xbe\x86\x20\x0c\xc9\x25\xb5\x68\x57\xb3\x85\x6f\x20\x09\xd4\x66\xb9\x9f\xe4\x61\xce\x0e\xf9\xde\x5e\x98\xc9\xd9\x29\x22\x98\xd0\xb0\xb4\xa8\xd7\xc7\x17\x3d\xb3\x59\x81\x0d\xb4\x2e\x3b\x5c\xbd\xb7\xad\x6c\xba\xc0\x20\x83\xb8\xed\xb6\xb3\xbf\x9a\x0c\xe2\xb6\x03\x9a\xd2\xb1\x74\x39\x47\xd5\xea\xaf\x77\xd2\x9d\x15\x26\xdb\x04\x83\x16\xdc\x73\x12\x0b\x63\xe3\x84\x3b\x64\x94\x3e\x6a\x6d\x0d\xa8\x5a\x6a\x7a\x0b\xcf\x0e\xe4\x9d\xff\x09\x93\x27\xae\x00\x0a\xb1\x9e\x07\x7d\x44\x93\x0f\xf0\xd2\xa3\x08\x87\x68\xf2\x01\x1e\xfe\xc2\x06\x69\x5d\x57\x62\xf7\xcb\x67\x65\x80\x71\x36\x6c\x19\xe7\x06\x6b\x6e\x76\x1b\xd4\xfe\xe0\x2b\xd3\x89\x5a\x7a\xda\x10\xcc\x4a\xdd\x67\x6f\xdf\xb9\xf9\xf9\xef\xbe\x8e\x43\xbe\xb7\x17\xd5\x8e\xb0\x60\xe8\xa3\xd6\xd6\x7e\x93\xd1\xa1\xc4\xc2\xd8\x38\x52\xf2\xdf\x4f\xf1\x67\xbb\xd1\x67\x57\xbc\xa6\xdd\x06\xb5\x3f\x4b\x36\xb2\x48\xda\x2b\x0d\xd8\x4c\x1b\x0a\xaf\xf6\x4a\x03\x36\x60\x7a\x04\x41\xc3\xef\x60\xdf\x55\xdf\x67\xa8\xef\x8e\x6e\x31\x79\xbe\x69\x46\x8c\xb3\x61\xcb\x1a\x83\x66\xbc\xa0\xd2\x6f\x25\x36\xe2\x68\x52\x95\x77\x0c\xcc\x03\x47\x0b\xbb\xb9\x16\x02\x22\x2f\x26\x05\x55\xbe\x3b\xba\xc5\x28\x0b\xbd\xb2\x92\x5a\xb4\x2b\x04\x6a\xb3\x5c\xa7\xff\xd7\xc2\x31\xcf\xd0\xb5\x8b\x9e\xd9\x2c\x1d\xae\xde\x5b\xb0\xc2\x64\x9b\x26\xf2\x63\xec\x9c\xa3\x6a\x75\x0a\x93\x6d\x02\xa9\x06\x09\x9c\x3f\x36\x0e\xeb\x85\x67\x07\x72\x13\x57\x00\x05\x82\x4a\xbf\x95\x14\x7a\xb8\xe2\xae\x2b\xb1\x7b\x38\x1b\xb6\x0c\x9b\x8e\xd2\x92\x0d\xbe\xd5\xe5\xb7\xef\xdc\x7c\x21\xdf\xdb\x0b\xd4\xd2\xd3\x86\x42\xe2\xd4\xf1\xf8\xb3\xdd\x68\x6e\x83\xda\x1f\xcd\x16\xbe\x81\x5b\x26\xb9\xf6\xe1\x77\xb0\x6f\x77\x47\xb7\x18\xe6\x5a\x08\x88\x70\x6a\x0f\xff\xca\x3b\x06\x66\x5c\x0b\x01\x11\xff\x9e\x65\x8f\x69\xae\x62\xf8\xd3\xff\x6b\x61\x45\xcf\x6c\x16\x78\xe2\x0a\xa0\xee\xd2\x0d\xd7\x54\x83\x04\x4e\xc2\xb3\x03\x39\x61\x26\x67\xa7\xf7\x16\x60\xd0\x4d\x47\x69\x49\xdb\x77\x6e\x3e\x4a\x6a\xd1\xae\xdc\x5a\xd6\xd9\x66\x0b\xdf\x40\xf0\x3b\xd8\x37\x53\xae\xbc\xa9\xc5\x9e\xbb\xde\x7f\xcf\xb2\x47\xe9\xff\xb5\x30\x1c\xf2\xbd\xbd\x8a\xc2\xba\xca\x30\x93\xb3\x53\xa6\xa3\xb4\x24\x05\x36\xd0\xba\x93\x06\xd7\xcd\x29\x57\xde\x54\xbf\x67\xd9\x23\x2e\x7a\x66\xb3\xb8\x4a\x61\xc4\x02\x1b\x68\x5d\x94\x2b\x6f\x2a\x37\xbe\x0b\xb4\xa1\x8e\x0c\xc3\x1b\xdf\x05\x5a\x8d\xef\x02\x2d
+LI1/w;->a(LI1/w; S)V
+0000 iput-short                 v1, v0, LI1/w;->J S
+0004 return-void                
+LI1/w;->b(LI1/w; Z)V
+0000 iput-boolean               v1, v0, LI1/w;->y Z
+0004 return-void                
+LI1/w;->c([B I)I
+0000 const/4                    v0, -1
+0002 const/4                    v1, 0
+0004 if-ge                      v1, v6, +011h
+0008 iget-object                v2, v4, LI1/w;->H [I
+000c aget-byte                  v3, v5, v1
+0010 xor-int/2addr              v3, v0
+0012 and-int/lit16              v3, v3, 255
+0016 aget                       v2, v2, v3
+001a ushr-int/lit8              v0, v0, 8
+001e xor-int/2addr              v0, v2
+0020 add-int/lit8               v1, v1, 1
+0024 goto                       -10h
+0026 not-int                    v5, v0
+0028 return                     v5
+LI1/w;->d()V
+0000 const/4                    v0, 0
+0002 iput-object                v0, v1, LI1/w;->G Lf/b;
+0006 invoke-static              Lr3/c;->c()Lr3/c;
+000c move-result-object         v0
+000e invoke-virtual             v0, v1, Lr3/c;->p(Ljava/lang/Object;)V
+0014 return-void                
+LI1/w;->e(Ljava/lang/String;)Z
+0000 const/4                    v0, 0
+0002 new-instance               v1, Ljava/io/FileInputStream;
+0006 new-instance               v2, Ljava/lang/StringBuilder;
+000a invoke-direct              v2, Ljava/lang/StringBuilder;-><init>()V
+0010 iget-object                v3, v7, LI1/w;->G Lf/b;
+0014 invoke-virtual             v3, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+001a move-result-object         v3
+001c invoke-virtual             v2, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+0022 sget-object                v3, Ljava/io/File;->separator Ljava/lang/String;
+0026 invoke-virtual             v2, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+002c invoke-virtual             v2, v8, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0032 invoke-virtual             v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0038 move-result-object         v8
+003a invoke-direct              v1, v8, Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+0040 invoke-virtual             v1, Ljava/io/InputStream;->available()I
+0046 move-result                v8
+0048 add-int/lit8               v8, v8, -6
+004c const/4                    v2, 3
+004e new-array                  v3, v2, [B
+0052 invoke-virtual             v1, v3, v0, v2, Ljava/io/InputStream;->read([B I I)I
+0058 iget                       v2, v7, LI1/w;->z I
+005c const/4                    v4, 1
+005e if-ne                      v2, v4, +00bh
+0062 aget-byte                  v5, v3, v4
+0066 const/16                   v6, -15
+006a if-eq                      v5, v6, +00eh
+006e goto                       +3h
+0070 move-exception             v8
+0072 goto                       +38h
+0074 const/4                    v5, 4
+0076 if-ne                      v2, v5, +032h
+007a aget-byte                  v2, v3, v4
+007e const/16                   v3, -12
+0082 if-ne                      v2, v3, +02ch
+0086 rem-int/lit16              v2, v8, 1024
+008a if-nez                     v2, +00eh
+008e div-int/lit16              v2, v8, 1024
+0092 iput                       v2, v7, LI1/w;->E I
+0096 new-array                  v2, v8, [B
+009a iput-object                v2, v7, LI1/w;->A [B
+009e invoke-virtual             v1, v2, v0, v8, Ljava/io/InputStream;->read([B I I)I
+00a4 goto                       +1ah
+00a6 div-int/lit16              v2, v8, 1024
+00aa add-int/2addr              v2, v4
+00ac iput                       v2, v7, LI1/w;->E I
+00b0 mul-int/lit16              v2, v2, 1024
+00b4 new-array                  v2, v2, [B
+00b8 iput-object                v2, v7, LI1/w;->A [B
+00bc invoke-virtual             v1, v2, v0, v8, Ljava/io/InputStream;->read([B I I)I
+00c2 iget-object                v2, v7, LI1/w;->A [B
+00c6 array-length               v3, v2
+00c8 if-ge                      v8, v3, +008h
+00cc const/4                    v3, -1
+00ce aput-byte                  v3, v2, v8
+00d2 add-int/lit8               v8, v8, 1
+00d6 goto                       -ah
+00d8 move                       v0, v4
+00da invoke-virtual             v1, Ljava/io/InputStream;->close()V
+00e0 goto                       +4h
+00e2 invoke-virtual             v8, Ljava/lang/Throwable;->printStackTrace()V
+00e8 return                     v0
+LI1/w;->f(Lf/b;)V
+0000 iput-object                v2, v1, LI1/w;->G Lf/b;
+0004 new-instance               v2, LG1/h;
+0008 iget-object                v0, v1, LI1/w;->G Lf/b;
+000c invoke-direct              v2, v0, LG1/h;-><init>(Landroid/app/Activity;)V
+0012 iput-object                v2, v1, LI1/w;->I LG1/h;
+0016 invoke-static              Lr3/c;->c()Lr3/c;
+001c move-result-object         v2
+001e invoke-virtual             v2, v1, Lr3/c;->n(Ljava/lang/Object;)V
+0024 return-void                
+LI1/w;->g(I)V
+0000 move-object/from16         v1, v18
+0004 const/4                    v0, 6
+0006 const/4                    v2, 5
+0008 const/16                   v3, 20
+000c const/4                    v4, 0
+000e const/4                    v5, 1
+0010 const/16                   v6, 8
+0014 const/16                   v7, 24
+0018 iget-object                v8, v1, LI1/w;->A [B
+001c const/16                   v9, 1024
+0020 move/from16                v10, v19
+0024 mul-int/2addr              v10, v9
+0026 iget-object                v11, v1, LI1/w;->B [B
+002a invoke-static              v8, v10, v11, v4, v9, Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+0030 invoke-static              LS0/b;->f()Z
+0036 move-result                v8
+0038 const-wide/16              v10, 40
+003c if-nez                     v8, +078h
+0040 invoke-static              LS0/b;->b()Z
+0046 move-result                v8
+0048 if-nez                     v8, +072h
+004c invoke-static              LS0/b;->c()Z
+0052 move-result                v8
+0054 if-eqz                     v8, +003h
+0058 goto                       +6ah
+005a move                       v8, v4
+005c const/16                   v12, 52
+0060 if-ge                      v8, v12, +0d8h
+0064 const/16                   v12, 51
+0068 if-ge                      v8, v12, +017h
+006c iget-object                v12, v1, LI1/w;->B [B
+0070 mul-int/lit8               v13, v8, 20
+0074 iget-object                v14, v1, LI1/w;->D [B
+0078 invoke-static              v12, v13, v14, v4, v3, Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+007e iget-object                v12, v1, LI1/w;->D [B
+0082 invoke-static              v12, LH0/a;->b0([B)V
+0088 invoke-static              v10, v11, Landroid/os/SystemClock;->sleep(J)V
+008e goto                       +45h
+0090 move-exception             v0
+0092 goto/16                    +0a5h
+0096 iget-object                v12, v1, LI1/w;->B [B
+009a invoke-virtual             v1, v12, v9, LI1/w;->c([B I)I
+00a0 move-result                v12
+00a2 iget-object                v13, v1, LI1/w;->B [B
+00a6 const/16                   v14, 1020
+00aa aget-byte                  v14, v13, v14
+00ae const/16                   v15, 1021
+00b2 aget-byte                  v15, v13, v15
+00b6 const/16                   v16, 1022
+00ba aget-byte                  v16, v13, v16
+00be const/16                   v17, 1023
+00c2 aget-byte                  v13, v13, v17
+00c6 shr-int/lit8               v3, v12, 24
+00ca int-to-byte                v3, v3
+00cc shr-int/lit8               v7, v12, 16
+00d0 and-int/lit16              v7, v7, 255
+00d4 int-to-byte                v7, v7
+00d6 shr-int/lit8               v9, v12, 8
+00da and-int/lit16              v9, v9, 255
+00de int-to-byte                v9, v9
+00e0 and-int/lit16              v12, v12, 255
+00e4 int-to-byte                v12, v12
+00e6 new-array                  v10, v6, [B
+00ea aput-byte                  v14, v10, v4
+00ee aput-byte                  v15, v10, v5
+00f2 const/4                    v11, 2
+00f4 aput-byte                  v16, v10, v11
+00f8 const/4                    v11, 3
+00fa aput-byte                  v13, v10, v11
+00fe const/4                    v11, 4
+0100 aput-byte                  v3, v10, v11
+0104 aput-byte                  v7, v10, v2
+0108 aput-byte                  v9, v10, v0
+010c const/4                    v3, 7
+010e aput-byte                  v12, v10, v3
+0112 invoke-static              v10, LH0/a;->b0([B)V
+0118 add-int/2addr              v8, v5
+011a const/16                   v3, 20
+011e const/16                   v7, 24
+0122 const/16                   v9, 1024
+0126 const-wide/16              v10, 40
+012a goto                       -67h
+012c move                       v3, v4
+012e if-ge                      v3, v0, +071h
+0132 if-ge                      v3, v2, +01bh
+0136 iget-object                v7, v1, LI1/w;->B [B
+013a mul-int/lit16              v8, v3, 200
+013e iget-object                v9, v1, LI1/w;->C [B
+0142 array-length               v10, v9
+0144 invoke-static              v7, v8, v9, v4, v10, Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+014a iget-object                v7, v1, LI1/w;->C [B
+014e invoke-static              v7, LH0/a;->b0([B)V
+0154 const-wide/16              v7, 40
+0158 invoke-static              v7, v8, Landroid/os/SystemClock;->sleep(J)V
+015e const/16                   v10, 1024
+0162 const/16                   v14, 24
+0166 goto                       +39h
+0168 const-wide/16              v7, 40
+016c iget-object                v9, v1, LI1/w;->B [B
+0170 const/16                   v10, 1024
+0174 invoke-virtual             v1, v9, v10, LI1/w;->c([B I)I
+017a move-result                v9
+017c const/16                   v11, 28
+0180 new-array                  v11, v11, [B
+0184 iget-object                v12, v1, LI1/w;->B [B
+0188 const/16                   v13, 1000
+018c const/16                   v14, 24
+0190 invoke-static              v12, v13, v11, v4, v14, Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+0196 shr-int/lit8               v12, v9, 24
+019a int-to-byte                v12, v12
+019c aput-byte                  v12, v11, v14
+01a0 shr-int/lit8               v12, v9, 16
+01a4 and-int/lit16              v12, v12, 255
+01a8 int-to-byte                v12, v12
+01aa const/16                   v13, 25
+01ae aput-byte                  v12, v11, v13
+01b2 shr-int/lit8               v12, v9, 8
+01b6 and-int/lit16              v12, v12, 255
+01ba int-to-byte                v12, v12
+01bc const/16                   v13, 26
+01c0 aput-byte                  v12, v11, v13
+01c4 and-int/lit16              v9, v9, 255
+01c8 int-to-byte                v9, v9
+01ca const/16                   v12, 27
+01ce aput-byte                  v9, v11, v12
+01d2 invoke-static              v11, LH0/a;->b0([B)V
+01d8 add-int/2addr              v3, v5
+01da goto                       -56h
+01dc new-instance               v2, Ljava/lang/StringBuilder;
+01e0 invoke-direct              v2, Ljava/lang/StringBuilder;-><init>()V
+01e6 const-string               v3, "异常了:"
+01ea invoke-virtual             v2, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+01f0 invoke-virtual             v0, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+01f6 move-result-object         v0
+01f8 invoke-virtual             v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+01fe invoke-virtual             v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0204 move-result-object         v0
+0206 const-string               v2, "liuping"
+020a invoke-static              v2, v0, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+0210 return-void                
+LI1/w;->h()V
+0000 const/4                    v0, 0
+0002 sput-boolean               v0, LI1/w;->L Z
+0006 iget-object                v0, v1, LI1/w;->I LG1/h;
+000a invoke-virtual             v0, Landroid/app/Dialog;->dismiss()V
+0010 return-void                
+LI1/w;->onEvent3MainThread(LH0/d;)V
+0000 iget-object                v14, v14, LH0/d;->a [B
+0004 if-eqz                     v14, +1e5h
+0008 const/4                    v0, 2
+000a aget-byte                  v1, v14, v0
+000e const/4                    v2, 0
+0010 const/16                   v3, -88
+0014 const/4                    v4, 1
+0016 if-ne                      v1, v3, +004h
+001a move                       v5, v4
+001c goto                       +2h
+001e move                       v5, v2
+0020 const/16                   v6, 8
+0024 aget-byte                  v6, v14, v6
+0028 const/4                    v7, 4
+002a packed-switch              v6, +00001d3h
+0030 goto/16                    +1cfh
+0034 invoke-virtual             v13, LI1/w;->h()V
+003a goto/16                    +1cah
+003e iget-object                v0, v13, LI1/w;->A [B
+0042 if-nez                     v0, +021h
+0046 iget-object                v14, v13, LI1/w;->K LG1/g;
+004a if-nez                     v14, +1c2h
+004e new-instance               v14, LG1/g;
+0052 iget-object                v0, v13, LI1/w;->G Lf/b;
+0056 invoke-direct              v14, v0, LG1/g;-><init>(Landroid/app/Activity;)V
+005c iput-object                v14, v13, LI1/w;->K LG1/g;
+0060 invoke-virtual             v14, LG1/g;->show()V
+0066 iget-object                v14, v13, LI1/w;->K LG1/g;
+006a iget-object                v0, v13, LI1/w;->G Lf/b;
+006e sget                       v1, LP1/h;->B2 I
+0072 invoke-virtual             v0, v1, Landroid/content/Context;->getString(I)Ljava/lang/String;
+0078 move-result-object         v0
+007a invoke-virtual             v14, v0, LG1/g;->b(Ljava/lang/String;)V
+0080 goto/16                    +1a7h
+0084 sput-boolean               v4, LI1/w;->L Z
+0088 const/16                   v0, 9
+008c aget-byte                  v0, v14, v0
+0090 const/16                   v1, 10
+0094 aget-byte                  v14, v14, v1
+0098 invoke-static              v0, v14, LG0/d;->a(B B)S
+009e move-result                v14
+00a0 iget-boolean               v0, v13, LI1/w;->y Z
+00a4 if-nez                     v0, +195h
+00a8 iget-short                 v0, v13, LI1/w;->J S
+00ac if-ge                      v14, v0, +004h
+00b0 goto/16                    +18fh
+00b4 sget-object                v0, LI1/s;->a Ljava/util/concurrent/ThreadPoolExecutor;
+00b8 new-instance               v1, LI1/w$a;
+00bc invoke-direct              v1, v13, v14, LI1/w$a;-><init>(LI1/w; S)V
+00c2 invoke-virtual             v0, v1, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+00c8 iget-object                v0, v13, LI1/w;->I LG1/h;
+00cc invoke-virtual             v0, Landroid/app/Dialog;->isShowing()Z
+00d2 move-result                v0
+00d4 if-nez                     v0, +052h
+00d8 iget-object                v0, v13, LI1/w;->I LG1/h;
+00dc invoke-virtual             v0, LG1/h;->show()V
+00e2 iget                       v0, v13, LI1/w;->z I
+00e6 if-ne                      v0, v7, +021h
+00ea iget-object                v0, v13, LI1/w;->I LG1/h;
+00ee new-instance               v1, Ljava/lang/StringBuilder;
+00f2 invoke-direct              v1, Ljava/lang/StringBuilder;-><init>()V
+00f8 iget-object                v2, v13, LI1/w;->G Lf/b;
+00fc sget                       v3, LP1/h;->y2 I
+0100 invoke-virtual             v2, v3, Landroid/content/Context;->getString(I)Ljava/lang/String;
+0106 move-result-object         v2
+0108 invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+010e const-string               v2, "(2)"
+0112 invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0118 invoke-virtual             v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+011e move-result-object         v1
+0120 invoke-virtual             v0, v1, LG1/h;->c(Ljava/lang/String;)V
+0126 goto                       +29h
+0128 iget-object                v0, v13, LI1/w;->I LG1/h;
+012c new-instance               v1, Ljava/lang/StringBuilder;
+0130 invoke-direct              v1, Ljava/lang/StringBuilder;-><init>()V
+0136 iget-object                v2, v13, LI1/w;->G Lf/b;
+013a sget                       v3, LP1/h;->y2 I
+013e invoke-virtual             v2, v3, Landroid/content/Context;->getString(I)Ljava/lang/String;
+0144 move-result-object         v2
+0146 invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+014c const-string               v2, "("
+0150 invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+0156 iget                       v2, v13, LI1/w;->z I
+015a invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+0160 const-string               v2, ")"
+0164 invoke-virtual             v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+016a invoke-virtual             v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+0170 move-result-object         v1
+0172 invoke-virtual             v0, v1, LG1/h;->c(Ljava/lang/String;)V
+0178 iget-object                v0, v13, LI1/w;->I LG1/h;
+017c mul-int/lit8               v14, v14, 100
+0180 iget                       v1, v13, LI1/w;->E I
+0184 div-int/2addr              v14, v1
+0186 invoke-virtual             v0, v14, LG1/h;->b(I)V
+018c goto/16                    +121h
+0190 const/4                    v6, 6
+0192 aget-byte                  v8, v14, v6
+0196 const/16                   v9, 89
+019a if-eq                      v8, v9, +0fah
+019e const/16                   v9, -84
+01a2 const/16                   v10, -85
+01a6 const/16                   v11, -87
+01aa const/16                   v12, -83
+01ae packed-switch              v8, +000011dh
+01b4 packed-switch              v8, +000012eh
+01ba goto/16                    +0f5h
+01be iput                       v7, v13, LI1/w;->z I
+01c2 if-ne                      v1, v3, +00ah
+01c6 iget-object                v1, v13, LI1/w;->l Ljava/lang/String;
+01ca invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+01d0 move-result                v1
+01d2 goto/16                    +0eah
+01d6 if-ne                      v1, v11, +0e7h
+01da iget-object                v1, v13, LI1/w;->e Ljava/lang/String;
+01de invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+01e4 move-result                v1
+01e6 goto/16                    +0e0h
+01ea const/4                    v1, 3
+01ec iput                       v1, v13, LI1/w;->z I
+01f0 if-eqz                     v5, +00ah
+01f4 iget-object                v1, v13, LI1/w;->k Ljava/lang/String;
+01f8 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+01fe move-result                v1
+0200 goto/16                    +0d3h
+0204 iget-object                v1, v13, LI1/w;->d Ljava/lang/String;
+0208 goto                       -8h
+020a iput                       v0, v13, LI1/w;->z I
+020e if-eqz                     v5, +00ah
+0212 iget-object                v1, v13, LI1/w;->j Ljava/lang/String;
+0216 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+021c move-result                v1
+021e goto/16                    +0c4h
+0222 iget-object                v1, v13, LI1/w;->c Ljava/lang/String;
+0226 goto                       -8h
+0228 iput                       v4, v13, LI1/w;->z I
+022c if-ne                      v1, v3, +00ah
+0230 iget-object                v1, v13, LI1/w;->g Ljava/lang/String;
+0234 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+023a move-result                v1
+023c goto/16                    +0b5h
+0240 if-ne                      v1, v11, +0b2h
+0244 iget-object                v1, v13, LI1/w;->a Ljava/lang/String;
+0248 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+024e move-result                v1
+0250 goto/16                    +0abh
+0254 iput                       v4, v13, LI1/w;->z I
+0258 if-eqz                     v5, +0a6h
+025c iget-object                v1, v13, LI1/w;->h Ljava/lang/String;
+0260 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0266 move-result                v1
+0268 goto/16                    +09fh
+026c iput                       v7, v13, LI1/w;->z I
+0270 if-ne                      v1, v12, +09ah
+0274 iget-object                v1, v13, LI1/w;->x Ljava/lang/String;
+0278 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+027e move-result                v1
+0280 goto/16                    +093h
+0284 iput                       v7, v13, LI1/w;->z I
+0288 if-ne                      v1, v9, +00ah
+028c iget-object                v1, v13, LI1/w;->s Ljava/lang/String;
+0290 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0296 move-result                v1
+0298 goto/16                    +087h
+029c if-ne                      v1, v12, +084h
+02a0 iget-object                v1, v13, LI1/w;->w Ljava/lang/String;
+02a4 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+02aa move-result                v1
+02ac goto/16                    +07dh
+02b0 iput                       v7, v13, LI1/w;->z I
+02b4 iget-object                v1, v13, LI1/w;->q Ljava/lang/String;
+02b8 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+02be move-result                v1
+02c0 goto/16                    +073h
+02c4 iput                       v7, v13, LI1/w;->z I
+02c8 if-ne                      v1, v11, +00ah
+02cc iget-object                v1, v13, LI1/w;->f Ljava/lang/String;
+02d0 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+02d6 move-result                v1
+02d8 goto/16                    +067h
+02dc if-ne                      v1, v10, +064h
+02e0 iget-object                v1, v13, LI1/w;->p Ljava/lang/String;
+02e4 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+02ea move-result                v1
+02ec goto                       +5dh
+02ee iput                       v4, v13, LI1/w;->z I
+02f2 if-ne                      v1, v12, +059h
+02f6 iget-object                v1, v13, LI1/w;->v Ljava/lang/String;
+02fa invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0300 move-result                v1
+0302 goto                       +52h
+0304 iput                       v4, v13, LI1/w;->z I
+0308 if-ne                      v1, v10, +009h
+030c iget-object                v1, v13, LI1/w;->o Ljava/lang/String;
+0310 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0316 move-result                v1
+0318 goto                       +47h
+031a if-ne                      v1, v12, +045h
+031e iget-object                v1, v13, LI1/w;->u Ljava/lang/String;
+0322 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0328 move-result                v1
+032a goto                       +3eh
+032c iput                       v4, v13, LI1/w;->z I
+0330 if-ne                      v1, v10, +009h
+0334 iget-object                v1, v13, LI1/w;->n Ljava/lang/String;
+0338 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+033e move-result                v1
+0340 goto                       +33h
+0342 if-ne                      v1, v9, +009h
+0346 iget-object                v1, v13, LI1/w;->r Ljava/lang/String;
+034a invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0350 move-result                v1
+0352 goto                       +2ah
+0354 if-ne                      v1, v12, +028h
+0358 iget-object                v1, v13, LI1/w;->t Ljava/lang/String;
+035c invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0362 move-result                v1
+0364 goto                       +21h
+0366 iput                       v4, v13, LI1/w;->z I
+036a if-ne                      v1, v11, +009h
+036e iget-object                v1, v13, LI1/w;->b Ljava/lang/String;
+0372 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+0378 move-result                v1
+037a goto                       +16h
+037c if-ne                      v1, v10, +014h
+0380 iget-object                v1, v13, LI1/w;->m Ljava/lang/String;
+0384 invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+038a move-result                v1
+038c goto                       +dh
+038e iput                       v4, v13, LI1/w;->z I
+0392 if-eqz                     v5, +009h
+0396 iget-object                v1, v13, LI1/w;->i Ljava/lang/String;
+039a invoke-virtual             v13, v1, LI1/w;->e(Ljava/lang/String;)Z
+03a0 move-result                v1
+03a2 goto                       +2h
+03a4 move                       v1, v2
+03a6 iput-short                 v2, v13, LI1/w;->J S
+03aa if-eqz                     v1, +012h
+03ae aget-byte                  v0, v14, v0
+03b2 aget-byte                  v14, v14, v6
+03b6 iget                       v1, v13, LI1/w;->E I
+03ba iget-object                v2, v13, LI1/w;->A [B
+03be array-length               v3, v2
+03c0 invoke-virtual             v13, v2, v3, LI1/w;->c([B I)I
+03c6 move-result                v2
+03c8 invoke-static              v0, v14, v1, v2, LH0/a;->C(B I I I)V
+03ce return-void                
+03d0 packed-switch-payload      30 31 32 33
+03e8 packed-switch-payload      50 51 52 53 54 55 56 57
+0410 packed-switch-payload      60 61 62 63 64

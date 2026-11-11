@@ -1,0 +1,67 @@
+2026-11-10T14:08:51.460Z
+Open On-Chip Debugger v0.12.0-esp32-20260831 (2026-08-31-22:09)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : STLINK V2J31S7 (API v2) VID:PID 0483:3748
+Info : Target voltage: 3.109859
+Info : clock speed 100 kHz
+Info : SWD DPIDR 0x0bc11477
+Info : [cm8.cpu] Cortex-M0+ r0p1 processor detected
+Info : [cm8.cpu] target has 4 breakpoints, 2 watchpoints
+Info : [cm8.cpu] Examination succeed
+Info : [cm8.cpu] starting gdb server on 3333
+Info : Listening on port 3333 for gdb connections
+Error: Failed to read memory at 0x08000000
+
+2026-11-10T14:09:05.845Z
+Open On-Chip Debugger v0.12.0-esp32-20260831 (2026-08-31-22:09)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : STLINK V2J31S7 (API v2) VID:PID 0483:3748
+Info : Target voltage: 3.112932
+Info : clock speed 100 kHz
+Info : SWD DPIDR 0x0bc11477
+Info : [cm8.cpu] Cortex-M0+ r0p1 processor detected
+Info : [cm8.cpu] target has 4 breakpoints, 2 watchpoints
+Info : [cm8.cpu] Examination succeed
+Info : [cm8.cpu] gdb port disabled
+0xe000ed00
+0x410cc601
+0x20000000
+0x02dc6c00
+0x08000000
+Error: Failed to read memory at 0x08000000
+read failed: failed to read memory
+0x08003000
+Error: Failed to read memory at 0x08003000
+read failed: failed to read memory
+0x00000000
+Error: Failed to read memory at 0x00000000
+read failed: failed to read memory
+0x40022020
+0x0000d800
+0x40015800
+0x06188061
+0xe0042000
+0x00000000
+shutdown command invoked
+
+2026-11-10T14:09:35.193Z
+Open On-Chip Debugger v0.12.0-esp32-20260831 (2026-08-31-22:09)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : STLINK V2J31S7 (API v2) VID:PID 0483:3748
+Info : Target voltage: 3.106786
+Info : clock speed 100 kHz
+Info : SWD DPIDR 0x0bc11477
+Info : [cm8.cpu] Cortex-M0+ r0p1 processor detected
+Info : [cm8.cpu] target has 4 breakpoints, 2 watchpoints
+Info : [cm8.cpu] Examination succeed
+Info : [cm8.cpu] gdb port disabled
+0x40022020: 0x0000d800
+0x1fff3100: 0x27ffd800
+0x1fff0000: 0x20000780
+shutdown command invoked

@@ -1,0 +1,11 @@
+*.md text eol=lf
+*.py text eol=lf
+*.cfg text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv -text
+*.psdata binary
+*.bin binary
+*.pdf binary
+*.jpg binary
+*.png binary

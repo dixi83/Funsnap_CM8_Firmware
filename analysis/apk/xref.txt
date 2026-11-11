@@ -1,0 +1,1551 @@
+LG0/a$b;->onScanResult(I Landroid/bluetooth/le/ScanResult;)V
+    00e0 cm8
+00c0 const-string               v4, "capture"
+00c4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00ca move-result                v4
+00cc if-nez                     v4, +082h
+00d0 const-string               v4, "baseus"
+00d4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00da move-result                v4
+00dc if-nez                     v4, +07ah
+00e0 const-string               v4, "cm8"
+00e4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00ea move-result                v4
+00ec if-nez                     v4, +072h
+00f0 const-string               v4, "cm9"
+00f4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00fa move-result                v4
+00fc if-nez                     v4, +06ah
+0100 const-string               v4, "linocell btc10"
+    00f0 cm9
+00d0 const-string               v4, "baseus"
+00d4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00da move-result                v4
+00dc if-nez                     v4, +07ah
+00e0 const-string               v4, "cm8"
+00e4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00ea move-result                v4
+00ec if-nez                     v4, +072h
+00f0 const-string               v4, "cm9"
+00f4 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00fa move-result                v4
+00fc if-nez                     v4, +06ah
+0100 const-string               v4, "linocell btc10"
+0104 invoke-virtual             v2, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+010a move-result                v4
+010c if-nez                     v4, +062h
+0110 const-string               v4, "nimbal"
+LG0/a$i;->onServicesDiscovered(Landroid/bluetooth/BluetoothGatt; I)V
+    0084 0000ffe0
+0064 const-string               v1, "22b3a000"
+0068 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+006e move-result                v0
+0070 if-nez                     v0, +012h
+0074 invoke-virtual             v4, Landroid/bluetooth/BluetoothGattService;->getUuid()Ljava/util/UUID;
+007a move-result-object         v0
+007c invoke-virtual             v0, Ljava/util/UUID;->toString()Ljava/lang/String;
+0082 move-result-object         v0
+0084 const-string               v1, "0000ffe0"
+0088 invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+008e move-result                v0
+0090 if-eqz                     v0, -02ah
+0094 iget-object                v3, v2, LG0/a$i;->b LG0/a;
+0098 invoke-static              v3, v4, LG0/a;->u(LG0/a; Landroid/bluetooth/BluetoothGattService;)V
+009e iget-object                v3, v2, LG0/a$i;->b LG0/a;
+00a2 invoke-virtual             v3, LG0/a;->e0()Ljava/lang/String;
+00a8 move-result-object         v3
+    00fe cm8
+00de const-string               v4, "capture pi-"
+00e2 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00e8 move-result                v4
+00ea if-nez                     v4, +02ah
+00ee const-string               v4, "capture3"
+00f2 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00f8 move-result                v4
+00fa if-nez                     v4, +022h
+00fe const-string               v4, "cm8"
+0102 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0108 move-result                v4
+010a if-nez                     v4, +01ah
+010e const-string               v4, "cm9"
+0112 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0118 move-result                v4
+011a if-nez                     v4, +012h
+011e const-string               v4, "mty-8009"
+    010e cm9
+00ee const-string               v4, "capture3"
+00f2 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00f8 move-result                v4
+00fa if-nez                     v4, +022h
+00fe const-string               v4, "cm8"
+0102 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0108 move-result                v4
+010a if-nez                     v4, +01ah
+010e const-string               v4, "cm9"
+0112 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0118 move-result                v4
+011a if-nez                     v4, +012h
+011e const-string               v4, "mty-8009"
+0122 invoke-virtual             v3, v4, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0128 move-result                v4
+012a if-nez                     v4, +00ah
+012e const-string               v4, "mty-8011"
+LG0/a;-><init>()V
+    0010 0000ffe1-0000-1000-8000-00805f9b34fb
+0000 invoke-direct              v3, Ljava/lang/Object;-><init>()V
+0006 const/4                    v0, 0
+0008 iput-boolean               v0, v3, LG0/a;->c Z
+000c iput-boolean               v0, v3, LG0/a;->d Z
+0010 const-string               v1, "0000ffe1-0000-1000-8000-00805f9b34fb"
+0014 iput-object                v1, v3, LG0/a;->e Ljava/lang/String;
+0018 const-string               v1, "0000ffe2-0000-1000-8000-00805f9b34fb"
+001c iput-object                v1, v3, LG0/a;->f Ljava/lang/String;
+0020 const-string               v1, "00002902-0000-1000-8000-00805f9b34fb"
+0024 iput-object                v1, v3, LG0/a;->g Ljava/lang/String;
+0028 iput                       v0, v3, LG0/a;->m I
+002c const/4                    v1, 0
+002e iput-object                v1, v3, LG0/a;->p LG0/a$l;
+    0018 0000ffe2-0000-1000-8000-00805f9b34fb
+0000 invoke-direct              v3, Ljava/lang/Object;-><init>()V
+0006 const/4                    v0, 0
+0008 iput-boolean               v0, v3, LG0/a;->c Z
+000c iput-boolean               v0, v3, LG0/a;->d Z
+0010 const-string               v1, "0000ffe1-0000-1000-8000-00805f9b34fb"
+0014 iput-object                v1, v3, LG0/a;->e Ljava/lang/String;
+0018 const-string               v1, "0000ffe2-0000-1000-8000-00805f9b34fb"
+001c iput-object                v1, v3, LG0/a;->f Ljava/lang/String;
+0020 const-string               v1, "00002902-0000-1000-8000-00805f9b34fb"
+0024 iput-object                v1, v3, LG0/a;->g Ljava/lang/String;
+0028 iput                       v0, v3, LG0/a;->m I
+002c const/4                    v1, 0
+002e iput-object                v1, v3, LG0/a;->p LG0/a$l;
+0032 new-instance               v1, Ljava/util/ArrayList;
+0036 invoke-direct              v1, Ljava/util/ArrayList;-><init>()V
+LG0/a;->Z()V
+    008e 0000ffe2
+006e const-string               v3, "000000c8"
+0072 invoke-virtual             v2, v3, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0078 move-result                v2
+007a if-nez                     v2, +012h
+007e invoke-virtual             v1, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
+0084 move-result-object         v2
+0086 invoke-virtual             v2, Ljava/util/UUID;->toString()Ljava/lang/String;
+008c move-result-object         v2
+008e const-string               v3, "0000ffe2"
+0092 invoke-virtual             v2, v3, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0098 move-result                v2
+009a if-eqz                     v2, +004h
+009e iput-object                v1, v4, LG0/a;->j Landroid/bluetooth/BluetoothGattCharacteristic;
+00a2 invoke-virtual             v1, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
+00a8 move-result-object         v2
+00aa invoke-virtual             v2, Ljava/util/UUID;->toString()Ljava/lang/String;
+00b0 move-result-object         v2
+    00f2 0000ffe1
+00d2 const-string               v3, "000000dc"
+00d6 invoke-virtual             v2, v3, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+00dc move-result                v2
+00de if-nez                     v2, +012h
+00e2 invoke-virtual             v1, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
+00e8 move-result-object         v2
+00ea invoke-virtual             v2, Ljava/util/UUID;->toString()Ljava/lang/String;
+00f0 move-result-object         v2
+00f2 const-string               v3, "0000ffe1"
+00f6 invoke-virtual             v2, v3, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+00fc move-result                v2
+00fe if-eqz                     v2, -06ch
+0102 iput-object                v1, v4, LG0/a;->i Landroid/bluetooth/BluetoothGattCharacteristic;
+0106 goto                       -70h
+0108 iget-object                v0, v4, LG0/a;->i Landroid/bluetooth/BluetoothGattCharacteristic;
+010c const/4                    v1, 1
+010e if-eqz                     v0, +006h
+LG0/a;->b0(Z)Z
+    011a cm8
+00fa const-string               v5, "capture pi-"
+00fe invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0104 move-result                v5
+0106 if-nez                     v5, +02dh
+010a const-string               v5, "capture3"
+010e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0114 move-result                v5
+0116 if-nez                     v5, +025h
+011a const-string               v5, "cm8"
+011e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0124 move-result                v5
+0126 if-nez                     v5, +01dh
+012a const-string               v5, "cm9"
+012e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0134 move-result                v5
+0136 if-nez                     v5, +015h
+013a const-string               v5, "mty-8009"
+    012a cm9
+010a const-string               v5, "capture3"
+010e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0114 move-result                v5
+0116 if-nez                     v5, +025h
+011a const-string               v5, "cm8"
+011e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0124 move-result                v5
+0126 if-nez                     v5, +01dh
+012a const-string               v5, "cm9"
+012e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0134 move-result                v5
+0136 if-nez                     v5, +015h
+013a const-string               v5, "mty-8009"
+013e invoke-virtual             v4, v5, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0144 move-result                v5
+0146 if-nez                     v5, +00dh
+014a const-string               v5, "mty-8011"
+LG0/a;->o0(Landroid/bluetooth/BluetoothDevice; Z)Z
+    00be cm8
+009e const-string               v9, "capture pi-"
+00a2 invoke-virtual             v8, v9, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+00a8 move-result                v9
+00aa if-nez                     v9, +02ah
+00ae const-string               v9, "capture3"
+00b2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00b8 move-result                v9
+00ba if-nez                     v9, +022h
+00be const-string               v9, "cm8"
+00c2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00c8 move-result                v9
+00ca if-nez                     v9, +01ah
+00ce const-string               v9, "cm9"
+00d2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00d8 move-result                v9
+00da if-nez                     v9, +012h
+00de const-string               v9, "mty-8009"
+    00ce cm9
+00ae const-string               v9, "capture3"
+00b2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00b8 move-result                v9
+00ba if-nez                     v9, +022h
+00be const-string               v9, "cm8"
+00c2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00c8 move-result                v9
+00ca if-nez                     v9, +01ah
+00ce const-string               v9, "cm9"
+00d2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00d8 move-result                v9
+00da if-nez                     v9, +012h
+00de const-string               v9, "mty-8009"
+00e2 invoke-virtual             v8, v9, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00e8 move-result                v9
+00ea if-nez                     v9, +00ah
+00ee const-string               v9, "mty-8011"
+LI1/w;-><init>()V
+    0066 C5_F01.bin
+0046 const-string               v0, "C3_F01_st_302.bin"
+004a iput-object                v0, v1, LI1/w;->i Ljava/lang/String;
+004e const-string               v0, "C3_F02.bin"
+0052 iput-object                v0, v1, LI1/w;->j Ljava/lang/String;
+0056 const-string               v0, "C3_F03.bin"
+005a iput-object                v0, v1, LI1/w;->k Ljava/lang/String;
+005e const-string               v0, "C3_F04.bin"
+0062 iput-object                v0, v1, LI1/w;->l Ljava/lang/String;
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+    006e C5_F01_puran.bin
+004e const-string               v0, "C3_F02.bin"
+0052 iput-object                v0, v1, LI1/w;->j Ljava/lang/String;
+0056 const-string               v0, "C3_F03.bin"
+005a iput-object                v0, v1, LI1/w;->k Ljava/lang/String;
+005e const-string               v0, "C3_F04.bin"
+0062 iput-object                v0, v1, LI1/w;->l Ljava/lang/String;
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+    0076 C5_F01_py.bin
+0056 const-string               v0, "C3_F03.bin"
+005a iput-object                v0, v1, LI1/w;->k Ljava/lang/String;
+005e const-string               v0, "C3_F04.bin"
+0062 iput-object                v0, v1, LI1/w;->l Ljava/lang/String;
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+    007e C5_F04.bin
+005e const-string               v0, "C3_F04.bin"
+0062 iput-object                v0, v1, LI1/w;->l Ljava/lang/String;
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+    0086 C5_F04_4g.bin
+0066 const-string               v0, "C5_F01.bin"
+006a iput-object                v0, v1, LI1/w;->m Ljava/lang/String;
+006e const-string               v0, "C5_F01_puran.bin"
+0072 iput-object                v0, v1, LI1/w;->n Ljava/lang/String;
+0076 const-string               v0, "C5_F01_py.bin"
+007a iput-object                v0, v1, LI1/w;->o Ljava/lang/String;
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+    009e C9_F01.bin
+007e const-string               v0, "C5_F04.bin"
+0082 iput-object                v0, v1, LI1/w;->p Ljava/lang/String;
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+    00a6 C9_F01_puran_360.bin
+0086 const-string               v0, "C5_F04_4g.bin"
+008a iput-object                v0, v1, LI1/w;->q Ljava/lang/String;
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+00c2 iput-object                v0, v1, LI1/w;->x Ljava/lang/String;
+00c6 const/4                    v0, 0
+    00ae C9_F01_puran_360_hall.bin
+008e const-string               v0, "C4_F01.bin"
+0092 iput-object                v0, v1, LI1/w;->r Ljava/lang/String;
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+00c2 iput-object                v0, v1, LI1/w;->x Ljava/lang/String;
+00c6 const/4                    v0, 0
+00c8 iput-boolean               v0, v1, LI1/w;->y Z
+00cc const/4                    v0, 1
+    00b6 C9_F04.bin
+0096 const-string               v0, "C4_F04.bin"
+009a iput-object                v0, v1, LI1/w;->s Ljava/lang/String;
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+00c2 iput-object                v0, v1, LI1/w;->x Ljava/lang/String;
+00c6 const/4                    v0, 0
+00c8 iput-boolean               v0, v1, LI1/w;->y Z
+00cc const/4                    v0, 1
+00ce iput                       v0, v1, LI1/w;->z I
+00d2 const/16                   v0, 1024
+    00be C9_F04_puran_360.bin
+009e const-string               v0, "C9_F01.bin"
+00a2 iput-object                v0, v1, LI1/w;->t Ljava/lang/String;
+00a6 const-string               v0, "C9_F01_puran_360.bin"
+00aa iput-object                v0, v1, LI1/w;->u Ljava/lang/String;
+00ae const-string               v0, "C9_F01_puran_360_hall.bin"
+00b2 iput-object                v0, v1, LI1/w;->v Ljava/lang/String;
+00b6 const-string               v0, "C9_F04.bin"
+00ba iput-object                v0, v1, LI1/w;->w Ljava/lang/String;
+00be const-string               v0, "C9_F04_puran_360.bin"
+00c2 iput-object                v0, v1, LI1/w;->x Ljava/lang/String;
+00c6 const/4                    v0, 0
+00c8 iput-boolean               v0, v1, LI1/w;->y Z
+00cc const/4                    v0, 1
+00ce iput                       v0, v1, LI1/w;->z I
+00d2 const/16                   v0, 1024
+00d6 new-array                  v0, v0, [B
+00da iput-object                v0, v1, LI1/w;->B [B
+LJ0/a;-><init>()V
+    0010 0000ffe1-0000-1000-8000-00805f9b34fb
+0000 invoke-direct              v3, Ljava/lang/Object;-><init>()V
+0006 const/4                    v0, 0
+0008 iput-boolean               v0, v3, LJ0/a;->a Z
+000c iput-boolean               v0, v3, LJ0/a;->b Z
+0010 const-string               v1, "0000ffe1-0000-1000-8000-00805f9b34fb"
+0014 iput-object                v1, v3, LJ0/a;->c Ljava/lang/String;
+0018 const-string               v1, "0000ffe2-0000-1000-8000-00805f9b34fb"
+001c iput-object                v1, v3, LJ0/a;->d Ljava/lang/String;
+0020 const-string               v1, "00002902-0000-1000-8000-00805f9b34fb"
+0024 iput-object                v1, v3, LJ0/a;->e Ljava/lang/String;
+0028 iput                       v0, v3, LJ0/a;->k I
+002c const/4                    v1, 0
+002e iput-object                v1, v3, LJ0/a;->n LJ0/a$g;
+    0018 0000ffe2-0000-1000-8000-00805f9b34fb
+0000 invoke-direct              v3, Ljava/lang/Object;-><init>()V
+0006 const/4                    v0, 0
+0008 iput-boolean               v0, v3, LJ0/a;->a Z
+000c iput-boolean               v0, v3, LJ0/a;->b Z
+0010 const-string               v1, "0000ffe1-0000-1000-8000-00805f9b34fb"
+0014 iput-object                v1, v3, LJ0/a;->c Ljava/lang/String;
+0018 const-string               v1, "0000ffe2-0000-1000-8000-00805f9b34fb"
+001c iput-object                v1, v3, LJ0/a;->d Ljava/lang/String;
+0020 const-string               v1, "00002902-0000-1000-8000-00805f9b34fb"
+0024 iput-object                v1, v3, LJ0/a;->e Ljava/lang/String;
+0028 iput                       v0, v3, LJ0/a;->k I
+002c const/4                    v1, 0
+002e iput-object                v1, v3, LJ0/a;->n LJ0/a$g;
+0032 new-instance               v1, Ljava/util/ArrayList;
+0036 invoke-direct              v1, Ljava/util/ArrayList;-><init>()V
+LS0/b$a;-><clinit>()V
+    007c CM8
+005a invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+0060 sput-object                v0, LS0/b$a;->f LS0/b$a;
+0064 new-instance               v0, LS0/b$a;
+0068 const-string               v1, "CAPTURE_5"
+006c const/4                    v2, 5
+006e invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+0074 sput-object                v0, LS0/b$a;->g LS0/b$a;
+0078 new-instance               v0, LS0/b$a;
+007c const-string               v1, "CM8"
+0080 const/4                    v2, 6
+0082 invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+0088 sput-object                v0, LS0/b$a;->i LS0/b$a;
+008c new-instance               v0, LS0/b$a;
+0090 const-string               v1, "CM9"
+0094 const/4                    v2, 7
+0096 invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+009c sput-object                v0, LS0/b$a;->j LS0/b$a;
+    0090 CM9
+006e invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+0074 sput-object                v0, LS0/b$a;->g LS0/b$a;
+0078 new-instance               v0, LS0/b$a;
+007c const-string               v1, "CM8"
+0080 const/4                    v2, 6
+0082 invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+0088 sput-object                v0, LS0/b$a;->i LS0/b$a;
+008c new-instance               v0, LS0/b$a;
+0090 const-string               v1, "CM9"
+0094 const/4                    v2, 7
+0096 invoke-direct              v0, v1, v2, LS0/b$a;-><init>(Ljava/lang/String; I)V
+009c sput-object                v0, LS0/b$a;->j LS0/b$a;
+00a0 invoke-static              LS0/b$a;->a()[LS0/b$a;
+00a6 move-result-object         v0
+00a8 sput-object                v0, LS0/b$a;->n [LS0/b$a;
+00ac return-void                
+Lcap/phone/set/custom/GimbalOtherView;->getUpdateFirmNum()B
+    01ac key_gimbal_version_c09_1
+0192 return                     v2
+0194 return                     v4
+0196 const/4                    v5, 4
+0198 if-ne                      v1, v5, +044h
+019c iget                       v0, v0, LH0/b;->m I
+01a0 if-ne                      v0, v6, +00dh
+01a4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01aa move-result-object         v0
+01ac const-string               v1, "key_gimbal_version_c09_1"
+01b0 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01b6 move-result                v0
+01b8 goto                       +bh
+01ba invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01c0 move-result-object         v0
+01c2 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01c6 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01cc move-result                v0
+    01c2 key_gimbal_version_c09_1_puran_360
+01a4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01aa move-result-object         v0
+01ac const-string               v1, "key_gimbal_version_c09_1"
+01b0 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01b6 move-result                v0
+01b8 goto                       +bh
+01ba invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01c0 move-result-object         v0
+01c2 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01c6 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01cc move-result                v0
+01ce iget-object                v1, v7, Lcap/phone/set/custom/GimbalOtherView;->e LH0/b;
+01d2 iget                       v1, v1, LH0/b;->n I
+01d6 const/16                   v5, 86
+01da if-ne                      v1, v5, +00dh
+01de invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01e4 move-result-object         v1
+    01e6 key_gimbal_version_c09_4
+01c6 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01cc move-result                v0
+01ce iget-object                v1, v7, Lcap/phone/set/custom/GimbalOtherView;->e LH0/b;
+01d2 iget                       v1, v1, LH0/b;->n I
+01d6 const/16                   v5, 86
+01da if-ne                      v1, v5, +00dh
+01de invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01e4 move-result-object         v1
+01e6 const-string               v5, "key_gimbal_version_c09_4"
+01ea invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01f0 move-result                v1
+01f2 goto                       +bh
+01f4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01fa move-result-object         v1
+01fc const-string               v5, "key_gimbal_version_c09_4_puran_360"
+0200 invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0206 move-result                v1
+    01fc key_gimbal_version_c09_4_puran_360
+01de invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01e4 move-result-object         v1
+01e6 const-string               v5, "key_gimbal_version_c09_4"
+01ea invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01f0 move-result                v1
+01f2 goto                       +bh
+01f4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01fa move-result-object         v1
+01fc const-string               v5, "key_gimbal_version_c09_4_puran_360"
+0200 invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0206 move-result                v1
+0208 iget-object                v5, v7, Lcap/phone/set/custom/GimbalOtherView;->e LH0/b;
+020c iget                       v6, v5, LH0/b;->i I
+0210 if-le                      v0, v6, +003h
+0214 return                     v3
+0216 iget                       v0, v5, LH0/b;->l I
+021a if-le                      v1, v0, +003h
+Lcap/phone/set/custom/GimbalOtherView;->onEvent3MainThread(LH0/d;)V
+    02c4 key_gimbal_version_c09_4_puran_360
+02a6 const/16                   v8, 82
+02aa if-eq                      v4, v8, +023h
+02ae if-eq                      v4, v11, +014h
+02b2 const/16                   v8, 87
+02b6 if-eq                      v4, v8, +003h
+02ba goto                       +34h
+02bc invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02c2 move-result-object         v4
+02c4 const-string               v8, "key_gimbal_version_c09_4_puran_360"
+02c8 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02ce move-result                v4
+02d0 iput                       v4, v3, LH0/b;->l I
+02d4 goto                       +27h
+02d6 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02dc move-result-object         v4
+02de const-string               v8, "key_gimbal_version_c09_4"
+02e2 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    02de key_gimbal_version_c09_4
+02c2 move-result-object         v4
+02c4 const-string               v8, "key_gimbal_version_c09_4_puran_360"
+02c8 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02ce move-result                v4
+02d0 iput                       v4, v3, LH0/b;->l I
+02d4 goto                       +27h
+02d6 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02dc move-result-object         v4
+02de const-string               v8, "key_gimbal_version_c09_4"
+02e2 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02e8 move-result                v4
+02ea iput                       v4, v3, LH0/b;->l I
+02ee goto                       +1ah
+02f0 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02f6 move-result-object         v4
+02f8 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+02fc invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    02f8 key_gimbal_version_c09_1_puran_360
+02dc move-result-object         v4
+02de const-string               v8, "key_gimbal_version_c09_4"
+02e2 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02e8 move-result                v4
+02ea iput                       v4, v3, LH0/b;->l I
+02ee goto                       +1ah
+02f0 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02f6 move-result-object         v4
+02f8 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+02fc invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0302 move-result                v4
+0304 iput                       v4, v3, LH0/b;->i I
+0308 goto                       +dh
+030a invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0310 move-result-object         v4
+0312 const-string               v8, "key_gimbal_version_c09_1"
+0316 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    0312 key_gimbal_version_c09_1
+02f6 move-result-object         v4
+02f8 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+02fc invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0302 move-result                v4
+0304 iput                       v4, v3, LH0/b;->i I
+0308 goto                       +dh
+030a invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0310 move-result-object         v4
+0312 const-string               v8, "key_gimbal_version_c09_1"
+0316 invoke-static              v4, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+031c move-result                v4
+031e iput                       v4, v3, LH0/b;->i I
+0322 invoke-virtual             v13, Lcap/phone/set/custom/GimbalOtherView;->getUpdateFirmNum()B
+0328 move-result                v3
+032a if-nez                     v3, +01ah
+032e aget-byte                  v14, v14, v7
+0332 invoke-static              v14, LH0/a;->Z(B)V
+Lcom/cap/camera/HomeActivity$b;->run()V
+    00b4 C5_F01.bin
+008e invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0094 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0098 const-string               v1, "key_gimbal_version_pi_1"
+009c invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00a2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00a6 const-string               v1, "key_gimbal_version_pi_4"
+00aa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00b0 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00b4 const-string               v1, "C5_F01.bin"
+00b8 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00be iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00c2 const-string               v1, "C5_F01_puran.bin"
+00c6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00cc iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00d0 const-string               v1, "C5_F01_py.bin"
+00d4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00da iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    00c2 C5_F01_puran.bin
+009c invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00a2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00a6 const-string               v1, "key_gimbal_version_pi_4"
+00aa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00b0 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00b4 const-string               v1, "C5_F01.bin"
+00b8 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00be iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00c2 const-string               v1, "C5_F01_puran.bin"
+00c6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00cc iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00d0 const-string               v1, "C5_F01_py.bin"
+00d4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00da iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00de const-string               v1, "C5_F04.bin"
+00e2 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00e8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    00d0 C5_F01_py.bin
+00aa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00b0 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00b4 const-string               v1, "C5_F01.bin"
+00b8 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00be iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00c2 const-string               v1, "C5_F01_puran.bin"
+00c6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00cc iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00d0 const-string               v1, "C5_F01_py.bin"
+00d4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00da iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00de const-string               v1, "C5_F04.bin"
+00e2 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00e8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00ec const-string               v1, "C5_F04_4g.bin"
+00f0 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00f6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    00de C5_F04.bin
+00b8 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00be iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00c2 const-string               v1, "C5_F01_puran.bin"
+00c6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00cc iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00d0 const-string               v1, "C5_F01_py.bin"
+00d4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00da iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00de const-string               v1, "C5_F04.bin"
+00e2 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00e8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00ec const-string               v1, "C5_F04_4g.bin"
+00f0 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00f6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00fa const-string               v1, "key_gimbal_version_c05_1"
+00fe invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0104 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    00ec C5_F04_4g.bin
+00c6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00cc iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00d0 const-string               v1, "C5_F01_py.bin"
+00d4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00da iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00de const-string               v1, "C5_F04.bin"
+00e2 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00e8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00ec const-string               v1, "C5_F04_4g.bin"
+00f0 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+00f6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+00fa const-string               v1, "key_gimbal_version_c05_1"
+00fe invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0104 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0108 const-string               v1, "key_gimbal_version_c05_1_puran"
+010c invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0112 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    0178 C9_F01.bin
+0152 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0158 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+015c const-string               v1, "key_gimbal_version_c04_4"
+0160 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0166 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+016a const-string               v1, "key_gimbal_version_c04_1"
+016e invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0174 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0178 const-string               v1, "C9_F01.bin"
+017c invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0182 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0186 const-string               v1, "C9_F01_puran_360.bin"
+018a invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0190 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0194 const-string               v1, "C9_F01_puran_360_hall.bin"
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    0186 C9_F01_puran_360.bin
+0160 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0166 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+016a const-string               v1, "key_gimbal_version_c04_1"
+016e invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0174 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0178 const-string               v1, "C9_F01.bin"
+017c invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0182 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0186 const-string               v1, "C9_F01_puran_360.bin"
+018a invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0190 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0194 const-string               v1, "C9_F01_puran_360_hall.bin"
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01a2 const-string               v1, "C9_F04.bin"
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    0194 C9_F01_puran_360_hall.bin
+016e invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0174 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0178 const-string               v1, "C9_F01.bin"
+017c invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0182 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0186 const-string               v1, "C9_F01_puran_360.bin"
+018a invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0190 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0194 const-string               v1, "C9_F01_puran_360_hall.bin"
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01a2 const-string               v1, "C9_F04.bin"
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01b0 const-string               v1, "C9_F04_puran_360.bin"
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01a2 C9_F04.bin
+017c invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0182 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0186 const-string               v1, "C9_F01_puran_360.bin"
+018a invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0190 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0194 const-string               v1, "C9_F01_puran_360_hall.bin"
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01a2 const-string               v1, "C9_F04.bin"
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01b0 const-string               v1, "C9_F04_puran_360.bin"
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c09_4"
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01b0 C9_F04_puran_360.bin
+018a invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0190 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0194 const-string               v1, "C9_F01_puran_360_hall.bin"
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01a2 const-string               v1, "C9_F04.bin"
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01b0 const-string               v1, "C9_F04_puran_360.bin"
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c09_4"
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01cc const-string               v1, "key_gimbal_version_c09_4_puran_360"
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01be key_gimbal_version_c09_4
+0198 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+019e iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01a2 const-string               v1, "C9_F04.bin"
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01b0 const-string               v1, "C9_F04_puran_360.bin"
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c09_4"
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01cc const-string               v1, "key_gimbal_version_c09_4_puran_360"
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01da const-string               v1, "key_gimbal_version_c09_1"
+01de invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01e4 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01cc key_gimbal_version_c09_4_puran_360
+01a6 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ac iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01b0 const-string               v1, "C9_F04_puran_360.bin"
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c09_4"
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01cc const-string               v1, "key_gimbal_version_c09_4_puran_360"
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01da const-string               v1, "key_gimbal_version_c09_1"
+01de invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01e4 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01e8 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01ec invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01f2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01da key_gimbal_version_c09_1
+01b4 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01ba iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c09_4"
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01cc const-string               v1, "key_gimbal_version_c09_4_puran_360"
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01da const-string               v1, "key_gimbal_version_c09_1"
+01de invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01e4 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01e8 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01ec invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01f2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01f6 const-string               v1, "key_gimbal_version_c09_1_puran_360_hall"
+01fa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0200 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+    01e8 key_gimbal_version_c09_1_puran_360
+01c2 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01c8 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01cc const-string               v1, "key_gimbal_version_c09_4_puran_360"
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01da const-string               v1, "key_gimbal_version_c09_1"
+01de invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01e4 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01e8 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01ec invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01f2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01f6 const-string               v1, "key_gimbal_version_c09_1_puran_360_hall"
+01fa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0200 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0204 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+020a move-result-object         v0
+020c const-string               v1, "BR8051A01B_HARMONY.bin"
+    01f6 key_gimbal_version_c09_1_puran_360_hall
+01d0 invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01d6 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01da const-string               v1, "key_gimbal_version_c09_1"
+01de invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01e4 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01e8 const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01ec invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01f2 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+01f6 const-string               v1, "key_gimbal_version_c09_1_puran_360_hall"
+01fa invoke-static              v0, v1, v3, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0200 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+0204 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+020a move-result-object         v0
+020c const-string               v1, "BR8051A01B_HARMONY.bin"
+0210 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0216 iget-object                v0, v4, Lcom/cap/camera/HomeActivity$b;->a Lcom/cap/camera/HomeActivity;
+021a invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+Lcom/cap/camera/HomeActivity$c;->run()V
+    011a C5_F01.bin
+00f8 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+00fe iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0102 const-string               v1, "key_gimbal_version_c05_1"
+0106 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+010c move-result                v0
+010e const/16                   v6, 15
+0112 if-ge                      v0, v6, +00eh
+0116 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+011a const-string               v7, "C5_F01.bin"
+011e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0124 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0128 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+012e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0132 const-string               v1, "key_gimbal_version_c05_1_puran"
+0136 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+013c move-result                v0
+013e const/16                   v6, 18
+    014a C5_F01_puran.bin
+0128 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+012e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0132 const-string               v1, "key_gimbal_version_c05_1_puran"
+0136 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+013c move-result                v0
+013e const/16                   v6, 18
+0142 if-ge                      v0, v6, +00eh
+0146 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+014a const-string               v7, "C5_F01_puran.bin"
+014e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0154 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0158 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+015e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0162 const-string               v1, "key_gimbal_version_c05_1_py"
+0166 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+016c move-result                v0
+016e const/16                   v6, 30
+    017a C5_F01_py.bin
+0158 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+015e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0162 const-string               v1, "key_gimbal_version_c05_1_py"
+0166 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+016c move-result                v0
+016e const/16                   v6, 30
+0172 if-ge                      v0, v6, +00eh
+0176 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+017a const-string               v7, "C5_F01_py.bin"
+017e invoke-static              v0, v3, v7, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0184 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0188 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+018e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0192 const-string               v1, "key_gimbal_version_c05_4"
+0196 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+019c move-result                v0
+019e if-ge                      v0, v5, +00eh
+    01a6 C5_F04.bin
+0184 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0188 invoke-static              v0, v1, v6, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+018e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0192 const-string               v1, "key_gimbal_version_c05_4"
+0196 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+019c move-result                v0
+019e if-ge                      v0, v5, +00eh
+01a2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01a6 const-string               v6, "C5_F04.bin"
+01aa invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01b0 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01b4 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01ba iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c05_4_4g"
+01c2 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c8 move-result                v0
+01ca const/16                   v5, 20
+    01d6 C5_F04_4g.bin
+01b4 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01ba iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01be const-string               v1, "key_gimbal_version_c05_4_4g"
+01c2 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c8 move-result                v0
+01ca const/16                   v5, 20
+01ce if-ge                      v0, v5, +00eh
+01d2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01d6 const-string               v6, "C5_F04_4g.bin"
+01da invoke-static              v0, v3, v6, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+01e0 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01e4 invoke-static              v0, v1, v5, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+01ea iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+01ee const-string               v1, "key_gimbal_version_c04_1"
+01f2 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01f8 move-result                v0
+01fa if-ge                      v0, v4, +010h
+    0252 key_gimbal_version_c09_1
+0230 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0234 const-string               v1, "C4_F04.bin"
+0238 invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+023e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0242 const-string               v1, "key_gimbal_version_c04_4"
+0246 const/4                    v4, 7
+0248 invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+024e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0252 const-string               v1, "key_gimbal_version_c09_1"
+0256 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+025c move-result                v0
+025e const/4                    v1, 1
+0260 if-ge                      v0, v1, +010h
+0264 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0268 const-string               v4, "C9_F01.bin"
+026c invoke-static              v0, v3, v4, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0272 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+    0268 C9_F01.bin
+0248 invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+024e iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0252 const-string               v1, "key_gimbal_version_c09_1"
+0256 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+025c move-result                v0
+025e const/4                    v1, 1
+0260 if-ge                      v0, v1, +010h
+0264 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0268 const-string               v4, "C9_F01.bin"
+026c invoke-static              v0, v3, v4, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0272 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0276 const-string               v4, "key_gimbal_version_c09_1"
+027a invoke-static              v0, v4, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0280 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0284 const-string               v4, "key_gimbal_version_c09_1_puran_360"
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+    0276 key_gimbal_version_c09_1
+0256 invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+025c move-result                v0
+025e const/4                    v1, 1
+0260 if-ge                      v0, v1, +010h
+0264 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0268 const-string               v4, "C9_F01.bin"
+026c invoke-static              v0, v3, v4, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0272 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0276 const-string               v4, "key_gimbal_version_c09_1"
+027a invoke-static              v0, v4, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0280 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0284 const-string               v4, "key_gimbal_version_c09_1_puran_360"
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+0290 const/4                    v4, 2
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+    0284 key_gimbal_version_c09_1_puran_360
+0260 if-ge                      v0, v1, +010h
+0264 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0268 const-string               v4, "C9_F01.bin"
+026c invoke-static              v0, v3, v4, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0272 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0276 const-string               v4, "key_gimbal_version_c09_1"
+027a invoke-static              v0, v4, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0280 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0284 const-string               v4, "key_gimbal_version_c09_1_puran_360"
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+0290 const/4                    v4, 2
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+029a const-string               v5, "C9_F01_puran_360.bin"
+029e invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02a4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+    029a C9_F01_puran_360.bin
+027a invoke-static              v0, v4, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0280 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0284 const-string               v4, "key_gimbal_version_c09_1_puran_360"
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+0290 const/4                    v4, 2
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+029a const-string               v5, "C9_F01_puran_360.bin"
+029e invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02a4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02a8 const-string               v5, "key_gimbal_version_c09_1_puran_360"
+02ac invoke-static              v0, v5, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02b2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+    02a8 key_gimbal_version_c09_1_puran_360
+0288 invoke-static              v0, v4, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+028e move-result                v0
+0290 const/4                    v4, 2
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+029a const-string               v5, "C9_F01_puran_360.bin"
+029e invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02a4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02a8 const-string               v5, "key_gimbal_version_c09_1_puran_360"
+02ac invoke-static              v0, v5, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02b2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+    02b6 key_gimbal_version_c09_1_puran_360_hall
+0292 if-ge                      v0, v4, +010h
+0296 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+029a const-string               v5, "C9_F01_puran_360.bin"
+029e invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02a4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02a8 const-string               v5, "key_gimbal_version_c09_1_puran_360"
+02ac invoke-static              v0, v5, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02b2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+02ce invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02d4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+    02ca C9_F01_puran_360_hall.bin
+02a8 const-string               v5, "key_gimbal_version_c09_1_puran_360"
+02ac invoke-static              v0, v5, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02b2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+02ce invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02d4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02dc invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02e2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+    02d8 key_gimbal_version_c09_1_puran_360_hall
+02b6 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02ba invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02c0 move-result                v0
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+02ce invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02d4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02dc invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02e2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+    02e6 key_gimbal_version_c09_4
+02c2 if-ge                      v0, v1, +010h
+02c6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02ca const-string               v5, "C9_F01_puran_360_hall.bin"
+02ce invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+02d4 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02dc invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02e2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+02fe invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0304 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0308 const-string               v5, "key_gimbal_version_c09_4"
+    02fa C9_F04.bin
+02d8 const-string               v5, "key_gimbal_version_c09_1_puran_360_hall"
+02dc invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+02e2 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+02fe invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0304 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0308 const-string               v5, "key_gimbal_version_c09_4"
+030c invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0312 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+    0308 key_gimbal_version_c09_4
+02e6 const-string               v5, "key_gimbal_version_c09_4"
+02ea invoke-static              v0, v5, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f0 move-result                v0
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+02fe invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0304 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0308 const-string               v5, "key_gimbal_version_c09_4"
+030c invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0312 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+0322 if-ge                      v0, v4, +010h
+0326 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+032a const-string               v1, "C9_F04_puran_360.bin"
+    0316 key_gimbal_version_c09_4_puran_360
+02f2 if-ge                      v0, v1, +010h
+02f6 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+02fa const-string               v5, "C9_F04.bin"
+02fe invoke-static              v0, v3, v5, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0304 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0308 const-string               v5, "key_gimbal_version_c09_4"
+030c invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0312 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+0322 if-ge                      v0, v4, +010h
+0326 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+032a const-string               v1, "C9_F04_puran_360.bin"
+032e invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0334 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0338 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+    032a C9_F04_puran_360.bin
+0308 const-string               v5, "key_gimbal_version_c09_4"
+030c invoke-static              v0, v5, v1, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0312 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+0322 if-ge                      v0, v4, +010h
+0326 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+032a const-string               v1, "C9_F04_puran_360.bin"
+032e invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0334 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0338 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+033c invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0342 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0346 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+034c move-result-object         v0
+034e const-string               v1, "BR8051A01B_HARMONY.bin"
+    0338 key_gimbal_version_c09_4_puran_360
+0316 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+031a invoke-static              v0, v1, v2, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0320 move-result                v0
+0322 if-ge                      v0, v4, +010h
+0326 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+032a const-string               v1, "C9_F04_puran_360.bin"
+032e invoke-static              v0, v3, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+0334 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0338 const-string               v1, "key_gimbal_version_c09_4_puran_360"
+033c invoke-static              v0, v1, v4, Lw2/c;->i(Landroid/content/Context; Ljava/lang/String; I)Z
+0342 iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+0346 invoke-virtual             v0, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+034c move-result-object         v0
+034e const-string               v1, "BR8051A01B_HARMONY.bin"
+0352 const-string               v2, ""
+0356 invoke-static              v0, v2, v1, LI1/f;->b(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+035c iget-object                v0, v8, Lcom/cap/camera/HomeActivity$c;->a Lcom/cap/camera/HomeActivity;
+Lcom/dy/capture/view/OtherSettingsView;->getUpdateFirmNum()B
+    01a6 key_gimbal_version_c09_1
+018c return                     v2
+018e return                     v4
+0190 const/4                    v5, 4
+0192 if-ne                      v1, v5, +044h
+0196 iget                       v0, v0, LH0/b;->m I
+019a if-ne                      v0, v6, +00dh
+019e invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01a4 move-result-object         v0
+01a6 const-string               v1, "key_gimbal_version_c09_1"
+01aa invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01b0 move-result                v0
+01b2 goto                       +bh
+01b4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01ba move-result-object         v0
+01bc const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01c0 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c6 move-result                v0
+    01bc key_gimbal_version_c09_1_puran_360
+019e invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01a4 move-result-object         v0
+01a6 const-string               v1, "key_gimbal_version_c09_1"
+01aa invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01b0 move-result                v0
+01b2 goto                       +bh
+01b4 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01ba move-result-object         v0
+01bc const-string               v1, "key_gimbal_version_c09_1_puran_360"
+01c0 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c6 move-result                v0
+01c8 iget-object                v1, v7, Lcom/dy/capture/view/OtherSettingsView;->m LH0/b;
+01cc iget                       v1, v1, LH0/b;->n I
+01d0 const/16                   v5, 86
+01d4 if-ne                      v1, v5, +00dh
+01d8 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01de move-result-object         v1
+    01e0 key_gimbal_version_c09_4
+01c0 invoke-static              v0, v1, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01c6 move-result                v0
+01c8 iget-object                v1, v7, Lcom/dy/capture/view/OtherSettingsView;->m LH0/b;
+01cc iget                       v1, v1, LH0/b;->n I
+01d0 const/16                   v5, 86
+01d4 if-ne                      v1, v5, +00dh
+01d8 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01de move-result-object         v1
+01e0 const-string               v5, "key_gimbal_version_c09_4"
+01e4 invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01ea move-result                v1
+01ec goto                       +bh
+01ee invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01f4 move-result-object         v1
+01f6 const-string               v5, "key_gimbal_version_c09_4_puran_360"
+01fa invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0200 move-result                v1
+    01f6 key_gimbal_version_c09_4_puran_360
+01d8 invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01de move-result-object         v1
+01e0 const-string               v5, "key_gimbal_version_c09_4"
+01e4 invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+01ea move-result                v1
+01ec goto                       +bh
+01ee invoke-virtual             v7, Landroid/view/View;->getContext()Landroid/content/Context;
+01f4 move-result-object         v1
+01f6 const-string               v5, "key_gimbal_version_c09_4_puran_360"
+01fa invoke-static              v1, v5, v4, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0200 move-result                v1
+0202 iget-object                v5, v7, Lcom/dy/capture/view/OtherSettingsView;->m LH0/b;
+0206 iget                       v6, v5, LH0/b;->i I
+020a if-le                      v0, v6, +003h
+020e return                     v3
+0210 iget                       v0, v5, LH0/b;->l I
+0214 if-le                      v1, v0, +003h
+Lcom/dy/capture/view/OtherSettingsView;->n()V
+    0106 cm9
+00e6 const-string               v1, "mty-8009"
+00ea invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00f0 move-result                v1
+00f2 if-nez                     v1, +01ah
+00f6 const-string               v1, "mty-8011"
+00fa invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0100 move-result                v1
+0102 if-nez                     v1, +012h
+0106 const-string               v1, "cm9"
+010a invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0110 move-result                v1
+0112 if-nez                     v1, +00ah
+0116 const-string               v1, "cm8"
+011a invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0120 move-result                v0
+0122 if-eqz                     v0, +013h
+0126 iget-object                v0, v5, Lcom/dy/capture/view/OtherSettingsView;->m LH0/b;
+    0116 cm8
+00f6 const-string               v1, "mty-8011"
+00fa invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0100 move-result                v1
+0102 if-nez                     v1, +012h
+0106 const-string               v1, "cm9"
+010a invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0110 move-result                v1
+0112 if-nez                     v1, +00ah
+0116 const-string               v1, "cm8"
+011a invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0120 move-result                v0
+0122 if-eqz                     v0, +013h
+0126 iget-object                v0, v5, Lcom/dy/capture/view/OtherSettingsView;->m LH0/b;
+012a iget                       v0, v0, LH0/b;->f I
+012e const/4                    v1, 1
+0130 if-eq                      v0, v1, +012h
+0134 const/4                    v1, 2
+Lcom/dy/capture/view/OtherSettingsView;->onEvent3MainThread(LH0/d;)V
+    02ee key_gimbal_version_c09_4_puran_360
+02d0 const/16                   v8, 82
+02d4 if-eq                      v5, v8, +023h
+02d8 if-eq                      v5, v11, +014h
+02dc const/16                   v8, 87
+02e0 if-eq                      v5, v8, +003h
+02e4 goto                       +34h
+02e6 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+02ec move-result-object         v5
+02ee const-string               v8, "key_gimbal_version_c09_4_puran_360"
+02f2 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f8 move-result                v5
+02fa iput                       v5, v4, LH0/b;->l I
+02fe goto                       +27h
+0300 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0306 move-result-object         v5
+0308 const-string               v8, "key_gimbal_version_c09_4"
+030c invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    0308 key_gimbal_version_c09_4
+02ec move-result-object         v5
+02ee const-string               v8, "key_gimbal_version_c09_4_puran_360"
+02f2 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+02f8 move-result                v5
+02fa iput                       v5, v4, LH0/b;->l I
+02fe goto                       +27h
+0300 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0306 move-result-object         v5
+0308 const-string               v8, "key_gimbal_version_c09_4"
+030c invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0312 move-result                v5
+0314 iput                       v5, v4, LH0/b;->l I
+0318 goto                       +1ah
+031a invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0320 move-result-object         v5
+0322 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+0326 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    0322 key_gimbal_version_c09_1_puran_360
+0306 move-result-object         v5
+0308 const-string               v8, "key_gimbal_version_c09_4"
+030c invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0312 move-result                v5
+0314 iput                       v5, v4, LH0/b;->l I
+0318 goto                       +1ah
+031a invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+0320 move-result-object         v5
+0322 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+0326 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+032c move-result                v5
+032e iput                       v5, v4, LH0/b;->i I
+0332 goto                       +dh
+0334 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+033a move-result-object         v5
+033c const-string               v8, "key_gimbal_version_c09_1"
+0340 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+    033c key_gimbal_version_c09_1
+0320 move-result-object         v5
+0322 const-string               v8, "key_gimbal_version_c09_1_puran_360"
+0326 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+032c move-result                v5
+032e iput                       v5, v4, LH0/b;->i I
+0332 goto                       +dh
+0334 invoke-virtual             v13, Landroid/view/View;->getContext()Landroid/content/Context;
+033a move-result-object         v5
+033c const-string               v8, "key_gimbal_version_c09_1"
+0340 invoke-static              v5, v8, v9, Lw2/c;->d(Landroid/content/Context; Ljava/lang/String; I)I
+0346 move-result                v5
+0348 iput                       v5, v4, LH0/b;->i I
+034c invoke-direct              v13, Lcom/dy/capture/view/OtherSettingsView;->getUpdateFirmNum()B
+0352 move-result                v4
+0354 if-nez                     v4, +032h
+0358 iget-object                v4, v13, Lcom/dy/capture/view/OtherSettingsView;->e Landroid/widget/TextView;
+035c new-instance               v5, Lcom/dy/capture/view/OtherSettingsView$i;
+Lu2/d;->U1()V
+    0096 cm8
+0076 const-string               v2, "mty-8009"
+007a invoke-virtual             v1, v2, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0080 move-result                v2
+0082 if-nez                     v2, +135h
+0086 const-string               v2, "mty-8011"
+008a invoke-virtual             v1, v2, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0090 move-result                v2
+0092 if-nez                     v2, +12dh
+0096 const-string               v2, "cm8"
+009a invoke-virtual             v1, v2, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00a0 move-result                v2
+00a2 if-eqz                     v2, +004h
+00a6 goto/16                    +123h
+00aa const-string               v2, "cm9"
+00ae invoke-virtual             v1, v2, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00b4 move-result                v2
+00b6 if-eqz                     v2, +012h
+    00aa cm9
+008a invoke-virtual             v1, v2, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+0090 move-result                v2
+0092 if-nez                     v2, +12dh
+0096 const-string               v2, "cm8"
+009a invoke-virtual             v1, v2, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00a0 move-result                v2
+00a2 if-eqz                     v2, +004h
+00a6 goto/16                    +123h
+00aa const-string               v2, "cm9"
+00ae invoke-virtual             v1, v2, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+00b4 move-result                v2
+00b6 if-eqz                     v2, +012h
+00ba sget-object                v0, LS0/b$a;->j LS0/b$a;
+00be sput-object                v0, LS0/b;->a LS0/b$a;
+00c2 iget-object                v0, v6, Lu2/d;->r0 Landroid/os/Handler;
+00c6 new-instance               v1, Lu2/d$h;
+00ca invoke-direct              v1, v6, Lu2/d$h;-><init>(Lu2/d;)V
+Lu2/l;->V1(Landroid/view/View;)V
+    001a CM8
+0000 new-instance               v3, Landroid/content/Intent;
+0004 invoke-virtual             v2, Landroidx/fragment/app/Fragment;->r1()Landroid/content/Context;
+000a move-result-object         v0
+000c const-class                v1, Lcom/cap/camera/TutorialActivity;
+0010 invoke-direct              v3, v0, v1, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+0016 const-string               v0, "title"
+001a const-string               v1, "CM8"
+001e invoke-virtual             v3, v0, v1, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+0024 iget-object                v0, v2, Lu2/l;->c0 Ljava/util/HashMap;
+0028 invoke-virtual             v0, v1, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+002e move-result-object         v0
+0030 check-cast                 v0, Ljava/io/Serializable;
+0034 const-string               v1, "list"
+0038 invoke-virtual             v3, v1, v0, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/io/Serializable;)Landroid/content/Intent;
+003e invoke-virtual             v2, Landroidx/fragment/app/Fragment;->r1()Landroid/content/Context;
+Lu2/l;->W1(Landroid/view/View;)V
+    001a CM9
+0000 new-instance               v3, Landroid/content/Intent;
+0004 invoke-virtual             v2, Landroidx/fragment/app/Fragment;->r1()Landroid/content/Context;
+000a move-result-object         v0
+000c const-class                v1, Lcom/cap/camera/TutorialActivity;
+0010 invoke-direct              v3, v0, v1, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+0016 const-string               v0, "title"
+001a const-string               v1, "CM9"
+001e invoke-virtual             v3, v0, v1, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+0024 iget-object                v0, v2, Lu2/l;->c0 Ljava/util/HashMap;
+0028 invoke-virtual             v0, v1, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+002e move-result-object         v0
+0030 check-cast                 v0, Ljava/io/Serializable;
+0034 const-string               v1, "list"
+0038 invoke-virtual             v3, v1, v0, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/io/Serializable;)Landroid/content/Intent;
+003e invoke-virtual             v2, Landroidx/fragment/app/Fragment;->r1()Landroid/content/Context;
+Lv2/a;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View;
+    01ba cm8
+019a iget-object                v0, v5, LG0/c;->b Ljava/lang/String;
+019e invoke-virtual             v0, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+01a4 move-result-object         v0
+01a6 const-string               v1, "capture3"
+01aa invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+01b0 move-result                v1
+01b2 const/16                   v2, 10
+01b6 if-nez                     v1, +114h
+01ba const-string               v1, "cm8"
+01be invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+01c4 move-result                v1
+01c6 if-nez                     v1, +10ch
+01ca const-string               v1, "mty-8009"
+01ce invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+01d4 move-result                v1
+01d6 if-nez                     v1, +104h
+01da const-string               v1, "mty-8011"
+    01fe cm9
+01de invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+01e4 move-result                v1
+01e6 if-nez                     v1, +0fch
+01ea const-string               v1, "2nk0"
+01ee invoke-virtual             v0, v1, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+01f4 move-result                v1
+01f6 if-eqz                     v1, +004h
+01fa goto/16                    +0f2h
+01fe const-string               v1, "cm9"
+0202 invoke-virtual             v0, v1, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+0208 move-result                v1
+020a if-eqz                     v1, +00dh
+020e iget-object                v0, v7, Lv2/a;->a Landroid/content/Context;
+0212 sget                       v1, Lt2/h;->f I
+0216 iget-object                v3, v9, Lv2/a$c;->d Landroid/widget/ImageView;
+021a invoke-static              v0, v1, v3, v2, LI1/h;->d(Landroid/content/Context; I Landroid/widget/ImageView; I)V
+0220 goto/16                    +0e8h
